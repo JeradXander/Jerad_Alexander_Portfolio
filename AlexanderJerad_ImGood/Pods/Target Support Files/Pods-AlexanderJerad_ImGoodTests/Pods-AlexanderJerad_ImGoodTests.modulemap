@@ -1,0 +1,6 @@
+framework module Pods_AlexanderJerad_ImGoodTests {
+  umbrella header "Pods-AlexanderJerad_ImGoodTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

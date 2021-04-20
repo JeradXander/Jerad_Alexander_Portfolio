@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <TextView android:id="@+id/message_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/monday_1600"
+        android:textSize="12sp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="4dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignEnd="@+id/messageTV"/>
+
+
+        <TextView android:id="@+id/messageTV"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:text="@string/test_message"
+            android:background="@drawable/bg_sender"
+            android:padding="24dp"
+            android:textAlignment="textEnd"
+            android:layout_alignParentEnd="true"
+            android:layout_below="@+id/message_time"
+           />
+
+    <TextView
+        android:id="@+id/is_seen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="textEnd"
+        android:layout_marginEnd="12dp"
+        android:text="@string/seen"
+        android:textSize="12sp"
+        android:layout_below="@+id/messageTV"
+        android:textColor="@color/colorPrimaryDark"
+        android:layout_alignEnd="@+id/messageTV"/>
+
+</RelativeLayout>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    app:contentPadding="3dp"
+    app:cardBackgroundColor="@color/darkGrey"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="25dp">
+
+    <ImageView
+        android:id="@+id/onlineStatusIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:padding="8dp"
+        android:src="@drawable/offline_shape"
+        android:scaleType="centerCrop"
+
+        />
+
+    <ImageView
+        android:id="@+id/avatarIV"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/avatar_back"
+        android:padding="8dp"
+        android:src="@color/darkGreen"
+        />
+<LinearLayout
+    android:layout_width="150dp"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="35dp"
+    android:layout_marginEnd="5dp"
+    android:orientation="vertical"
+    android:layout_gravity="center">
+    <TextView
+        android:id="@+id/nameTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:text="@string/name"
+        android:textSize="28sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:fontFamily="@font/activereg"
+        android:textColor="@color/background_green"
+        />
+
+    <TextView
+        android:id="@+id/lastMessageTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="textStart"
+        android:text="@string/name"
+        android:textSize="14sp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/white"
+        />
+</LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewOptions"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:layout_marginStart="320dp"
+        android:text="@string/colon"
+        android:clickable="true"
+        android:focusable="true"
+        android:textSize="30sp"
+        android:fontFamily="@font/activereg"
+        android:textAppearance="?android:textAppearanceLarge" />
+
+
+
+</androidx.cardview.widget.CardView>

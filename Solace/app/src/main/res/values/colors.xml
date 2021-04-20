@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9BE6A9</color>
+    <color name="colorPrimaryDark">#70a878</color>
+    <color name="colorAccent">#FFE817</color>
+    <color name="color_clickable">#FFE817</color>
+    <color name="color_nav">#9BE6A9</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="grey">#707070</color>
+    <color name="darkGrey">#303030</color>
+    <color name="background_green">#70a878</color>
+    <color name="darkGreen">#63A66E</color>
+
+
+
+</resources>

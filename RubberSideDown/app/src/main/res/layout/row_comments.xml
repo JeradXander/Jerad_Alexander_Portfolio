@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/colorPrimary"
+    >
+
+   <RelativeLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+
+       <ImageView android:id="@+id/cAvatarIV"
+           android:layout_width="40dp"
+           android:layout_height="40dp"
+           android:layout_margin="8dp"
+           android:src="@drawable/profile_place"
+           />
+
+       <TextView android:id="@+id/uNameTV"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="Jerad"
+           android:layout_toRightOf="@+id/cAvatarIV"
+           android:textSize="18sp"
+           android:textStyle="bold"
+           />
+
+       <TextView android:id="@+id/CommentTV"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="@string/this_is_the_comment"
+           android:layout_toEndOf="@+id/cAvatarIV"
+           android:textSize="18sp"
+           android:textStyle="bold"
+           android:layout_below="@+id/uNameTV"
+           />
+
+       <TextView android:id="@+id/timeTV"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:text="12/02/2000"
+           android:textSize="18sp"
+           android:textStyle="bold"
+           android:layout_below="@+id/CommentTV"
+           android:layout_toRightOf="@+id/cAvatarIV"
+           />
+
+   </RelativeLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,6 @@
+framework module Pods_AlexanderJerad_ImGood {
+  umbrella header "Pods-AlexanderJerad_ImGood-umbrella.h"
+
+  export *
+  module * { export * }
+}

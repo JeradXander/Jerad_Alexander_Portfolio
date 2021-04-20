@@ -1,0 +1,971 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		31634F1F250E90CA005F1A3F /* Api_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31634F1E250E90CA005F1A3F /* Api_Data.swift */; };
+		316EB770251D6EC30075A237 /* LastMessage_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 316EB76F251D6EC30075A237 /* LastMessage_Data.swift */; };
+		31967A6D251935C200D7258E /* DisplayProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31967A6C251935C200D7258E /* DisplayProfileViewController.swift */; };
+		31967A70251946F600D7258E /* PastConversationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31967A6F251946F600D7258E /* PastConversationCell.swift */; };
+		31967A722519482D00D7258E /* PastConvoDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31967A712519482D00D7258E /* PastConvoDelegate.swift */; };
+		31967A742519505700D7258E /* Chatter_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31967A732519505700D7258E /* Chatter_Data.swift */; };
+		31A4ED9D250A965300EF7A52 /* BackgroundUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4ED9C250A965300EF7A52 /* BackgroundUtility.swift */; };
+		31A4EDA1250A97C200EF7A52 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4EDA0250A97C200EF7A52 /* ProfileVC.swift */; };
+		31A4EDA3250A9A3800EF7A52 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A4EDA2250A9A3800EF7A52 /* TabBarVC.swift */; };
+		31A5CB332513EB17001BF7CB /* activereg.otf in Resources */ = {isa = PBXBuildFile; fileRef = 31A5CB322513EB17001BF7CB /* activereg.otf */; };
+		31A5CB352513EB59001BF7CB /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A5CB342513EB59001BF7CB /* WebViewController.swift */; };
+		31E6177A250FD18E00D06AC8 /* HotlineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E61779250FD18E00D06AC8 /* HotlineViewController.swift */; };
+		31F566D9251FD71800B7D1F1 /* BOW_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F566D8251FD71800B7D1F1 /* BOW_Data.swift */; };
+		31FF41622516D95B00253491 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF41612516D95B00253491 /* EditProfileViewController.swift */; };
+		5069AB0B429C3D9FCA4509C0 /* Pods_Solace_IOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FE307BABD3F90B7985D062F3 /* Pods_Solace_IOS.framework */; };
+		8832CAC2344141E57796D255 /* Pods_Solace_IOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D57A07100153B8F3AB9B6B85 /* Pods_Solace_IOSTests.framework */; };
+		C474E4A43DBAC5D003DEFB6F /* Pods_Solace_IOS_Solace_IOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB4BFFAAB2CDB7F8C84CC610 /* Pods_Solace_IOS_Solace_IOSUITests.framework */; };
+		DF6F9ACE2507401B009A6A56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F9ACD2507401B009A6A56 /* AppDelegate.swift */; };
+		DF6F9AD02507401B009A6A56 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F9ACF2507401B009A6A56 /* SceneDelegate.swift */; };
+		DF6F9AD22507401B009A6A56 /* DashboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F9AD12507401B009A6A56 /* DashboardVC.swift */; };
+		DF6F9AD52507401B009A6A56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6F9AD32507401B009A6A56 /* Main.storyboard */; };
+		DF6F9AD82507401B009A6A56 /* Solace_IOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF6F9AD62507401B009A6A56 /* Solace_IOS.xcdatamodeld */; };
+		DF6F9ADA2507401B009A6A56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6F9AD92507401B009A6A56 /* Assets.xcassets */; };
+		DF6F9ADD2507401B009A6A56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6F9ADB2507401B009A6A56 /* LaunchScreen.storyboard */; };
+		DF6F9AE82507401C009A6A56 /* Solace_IOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F9AE72507401C009A6A56 /* Solace_IOSTests.swift */; };
+		DF6F9AF32507401C009A6A56 /* Solace_IOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F9AF22507401C009A6A56 /* Solace_IOSUITests.swift */; };
+		DF6F9B012507405F009A6A56 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF6F9B002507405F009A6A56 /* GoogleService-Info.plist */; };
+		DF6F9B05250749A3009A6A56 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6F9B04250749A3009A6A56 /* SplashViewController.swift */; };
+		DF6F9B1B25076169009A6A56 /* splash_anim_ios.json in Resources */ = {isa = PBXBuildFile; fileRef = DF6F9B1A25076169009A6A56 /* splash_anim_ios.json */; };
+		DF803D6B251C7B0E00B099A5 /* SolaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF803D6A251C7B0E00B099A5 /* SolaceViewController.swift */; };
+		DF803D70251C900900B099A5 /* Listener_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF803D6F251C900900B099A5 /* Listener_Data.swift */; };
+		DFAAD5FC250AA551006BEB28 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAAD5FB250AA551006BEB28 /* LoginViewController.swift */; };
+		DFAAD600250BD065006BEB28 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAAD5FF250BD065006BEB28 /* Toast.swift */; };
+		DFAAD602250BD5E1006BEB28 /* Alerts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFAAD601250BD5E1006BEB28 /* Alerts.storyboard */; };
+		DFAAD604250BD66A006BEB28 /* LoggingInAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAAD603250BD66A006BEB28 /* LoggingInAlertViewController.swift */; };
+		DFAAD606250BDBCC006BEB28 /* AlertService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAAD605250BDBCC006BEB28 /* AlertService.swift */; };
+		DFAAD608250CEFAC006BEB28 /* OnBoardOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAAD607250CEFAC006BEB28 /* OnBoardOneViewController.swift */; };
+		DFAAD60A250D01C5006BEB28 /* LoadingAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAAD609250D01C5006BEB28 /* LoadingAlertViewController.swift */; };
+		DFAAD60C250D0474006BEB28 /* OnBoardTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAAD60B250D0474006BEB28 /* OnBoardTwoViewController.swift */; };
+		DFAAD60E250D061D006BEB28 /* ImageUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAAD60D250D061D006BEB28 /* ImageUtility.swift */; };
+		DFAAD610250D266D006BEB28 /* CustomCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAAD60F250D266D006BEB28 /* CustomCameraViewController.swift */; };
+		DFAAD612250D277D006BEB28 /* PhotoPreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAAD611250D277D006BEB28 /* PhotoPreviewView.swift */; };
+		DFAAD614250D27CF006BEB28 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFAAD613250D27CF006BEB28 /* UIViewExtension.swift */; };
+		DFCC112325176F6C00BE99FC /* Chat_Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCC112225176F6C00BE99FC /* Chat_Data.swift */; };
+		DFCC112925177F5100BE99FC /* receiverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCC112725177F5100BE99FC /* receiverTableViewCell.swift */; };
+		DFCC112A25177F5100BE99FC /* receiverTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFCC112825177F5100BE99FC /* receiverTableViewCell.xib */; };
+		DFCC113025177F6600BE99FC /* SenderTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFCC112E25177F6600BE99FC /* SenderTableViewCell.swift */; };
+		DFCC113125177F6600BE99FC /* SenderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFCC112F25177F6600BE99FC /* SenderTableViewCell.xib */; };
+		DFCC1135251786C500BE99FC /* receiverTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFCC112825177F5100BE99FC /* receiverTableViewCell.xib */; };
+		DFCC1139251786C600BE99FC /* receiverTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFCC112825177F5100BE99FC /* receiverTableViewCell.xib */; };
+		DFCC113D2517887900BE99FC /* receiverTableViewCell.swift in Resources */ = {isa = PBXBuildFile; fileRef = DFCC112725177F5100BE99FC /* receiverTableViewCell.swift */; };
+		DFCC11412517888100BE99FC /* SenderTableViewCell.swift in Resources */ = {isa = PBXBuildFile; fileRef = DFCC112E25177F6600BE99FC /* SenderTableViewCell.swift */; };
+		DFD996562515E83E00737276 /* HamPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD996552515E83E00737276 /* HamPopupViewController.swift */; };
+		DFD996582515EB6D00737276 /* Hamburgerpopover.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD996572515EB6D00737276 /* Hamburgerpopover.swift */; };
+		DFD9965A2517211000737276 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD996592517211000737276 /* ChatViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF6F9AE42507401C009A6A56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF6F9AC22507401B009A6A56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF6F9AC92507401B009A6A56;
+			remoteInfo = Solace_IOS;
+		};
+		DF6F9AEF2507401C009A6A56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF6F9AC22507401B009A6A56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF6F9AC92507401B009A6A56;
+			remoteInfo = Solace_IOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		31634F1E250E90CA005F1A3F /* Api_Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api_Data.swift; sourceTree = "<group>"; };
+		316EB76F251D6EC30075A237 /* LastMessage_Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastMessage_Data.swift; sourceTree = "<group>"; };
+		31967A6C251935C200D7258E /* DisplayProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayProfileViewController.swift; sourceTree = "<group>"; };
+		31967A6F251946F600D7258E /* PastConversationCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastConversationCell.swift; sourceTree = "<group>"; };
+		31967A712519482D00D7258E /* PastConvoDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastConvoDelegate.swift; sourceTree = "<group>"; };
+		31967A732519505700D7258E /* Chatter_Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chatter_Data.swift; sourceTree = "<group>"; };
+		31A4ED9C250A965300EF7A52 /* BackgroundUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundUtility.swift; sourceTree = "<group>"; };
+		31A4EDA0250A97C200EF7A52 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		31A4EDA2250A9A3800EF7A52 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		31A5CB322513EB17001BF7CB /* activereg.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = activereg.otf; sourceTree = "<group>"; };
+		31A5CB342513EB59001BF7CB /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		31E61779250FD18E00D06AC8 /* HotlineViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HotlineViewController.swift; sourceTree = "<group>"; };
+		31F566D8251FD71800B7D1F1 /* BOW_Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BOW_Data.swift; sourceTree = "<group>"; };
+		31FF41612516D95B00253491 /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		3235441B7D9183AAA5665F04 /* Pods-Solace_IOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solace_IOSTests.debug.xcconfig"; path = "Target Support Files/Pods-Solace_IOSTests/Pods-Solace_IOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5CE0711EEA20B445EB17A3E5 /* Pods-Solace_IOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solace_IOS.debug.xcconfig"; path = "Target Support Files/Pods-Solace_IOS/Pods-Solace_IOS.debug.xcconfig"; sourceTree = "<group>"; };
+		6DF8C4E8FBDB5FC6C8ED4A2C /* Pods-Solace_IOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solace_IOS.release.xcconfig"; path = "Target Support Files/Pods-Solace_IOS/Pods-Solace_IOS.release.xcconfig"; sourceTree = "<group>"; };
+		87A1BCF2BBCA8A735D805F9D /* Pods-Solace_IOS-Solace_IOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solace_IOS-Solace_IOSUITests.release.xcconfig"; path = "Target Support Files/Pods-Solace_IOS-Solace_IOSUITests/Pods-Solace_IOS-Solace_IOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		92FC5EBDD99EC6605CEB1911 /* Pods-Solace_IOS-Solace_IOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solace_IOS-Solace_IOSUITests.debug.xcconfig"; path = "Target Support Files/Pods-Solace_IOS-Solace_IOSUITests/Pods-Solace_IOS-Solace_IOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D57A07100153B8F3AB9B6B85 /* Pods_Solace_IOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Solace_IOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6F9ACA2507401B009A6A56 /* Solace_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solace_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6F9ACD2507401B009A6A56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF6F9ACF2507401B009A6A56 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF6F9AD12507401B009A6A56 /* DashboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardVC.swift; sourceTree = "<group>"; };
+		DF6F9AD42507401B009A6A56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF6F9AD72507401B009A6A56 /* Solace_IOS.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Solace_IOS.xcdatamodel; sourceTree = "<group>"; };
+		DF6F9AD92507401B009A6A56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF6F9ADC2507401B009A6A56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF6F9ADE2507401B009A6A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6F9AE32507401C009A6A56 /* Solace_IOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Solace_IOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6F9AE72507401C009A6A56 /* Solace_IOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solace_IOSTests.swift; sourceTree = "<group>"; };
+		DF6F9AE92507401C009A6A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6F9AEE2507401C009A6A56 /* Solace_IOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Solace_IOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6F9AF22507401C009A6A56 /* Solace_IOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solace_IOSUITests.swift; sourceTree = "<group>"; };
+		DF6F9AF42507401C009A6A56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF6F9B002507405F009A6A56 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DF6F9B04250749A3009A6A56 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
+		DF6F9B1A25076169009A6A56 /* splash_anim_ios.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = splash_anim_ios.json; sourceTree = "<group>"; };
+		DF803D6A251C7B0E00B099A5 /* SolaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolaceViewController.swift; sourceTree = "<group>"; };
+		DF803D6F251C900900B099A5 /* Listener_Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listener_Data.swift; sourceTree = "<group>"; };
+		DFAAD5FB250AA551006BEB28 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		DFAAD5FF250BD065006BEB28 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		DFAAD601250BD5E1006BEB28 /* Alerts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Alerts.storyboard; sourceTree = "<group>"; };
+		DFAAD603250BD66A006BEB28 /* LoggingInAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingInAlertViewController.swift; sourceTree = "<group>"; };
+		DFAAD605250BDBCC006BEB28 /* AlertService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertService.swift; sourceTree = "<group>"; };
+		DFAAD607250CEFAC006BEB28 /* OnBoardOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardOneViewController.swift; sourceTree = "<group>"; };
+		DFAAD609250D01C5006BEB28 /* LoadingAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAlertViewController.swift; sourceTree = "<group>"; };
+		DFAAD60B250D0474006BEB28 /* OnBoardTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardTwoViewController.swift; sourceTree = "<group>"; };
+		DFAAD60D250D061D006BEB28 /* ImageUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageUtility.swift; sourceTree = "<group>"; };
+		DFAAD60F250D266D006BEB28 /* CustomCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCameraViewController.swift; sourceTree = "<group>"; };
+		DFAAD611250D277D006BEB28 /* PhotoPreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPreviewView.swift; sourceTree = "<group>"; };
+		DFAAD613250D27CF006BEB28 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		DFCC112225176F6C00BE99FC /* Chat_Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat_Data.swift; sourceTree = "<group>"; };
+		DFCC112725177F5100BE99FC /* receiverTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = receiverTableViewCell.swift; sourceTree = "<group>"; };
+		DFCC112825177F5100BE99FC /* receiverTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = receiverTableViewCell.xib; sourceTree = "<group>"; };
+		DFCC112E25177F6600BE99FC /* SenderTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SenderTableViewCell.swift; sourceTree = "<group>"; };
+		DFCC112F25177F6600BE99FC /* SenderTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SenderTableViewCell.xib; sourceTree = "<group>"; };
+		DFD996552515E83E00737276 /* HamPopupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HamPopupViewController.swift; sourceTree = "<group>"; };
+		DFD996572515EB6D00737276 /* Hamburgerpopover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hamburgerpopover.swift; sourceTree = "<group>"; };
+		DFD996592517211000737276 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		E8FE63D94448ACA58B7CC21D /* Pods-Solace_IOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Solace_IOSTests.release.xcconfig"; path = "Target Support Files/Pods-Solace_IOSTests/Pods-Solace_IOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		FB4BFFAAB2CDB7F8C84CC610 /* Pods_Solace_IOS_Solace_IOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Solace_IOS_Solace_IOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE307BABD3F90B7985D062F3 /* Pods_Solace_IOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Solace_IOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF6F9AC72507401B009A6A56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5069AB0B429C3D9FCA4509C0 /* Pods_Solace_IOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6F9AE02507401C009A6A56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8832CAC2344141E57796D255 /* Pods_Solace_IOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6F9AEB2507401C009A6A56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C474E4A43DBAC5D003DEFB6F /* Pods_Solace_IOS_Solace_IOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31634F1D250E9098005F1A3F /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				31634F1E250E90CA005F1A3F /* Api_Data.swift */,
+				DFCC112225176F6C00BE99FC /* Chat_Data.swift */,
+				31967A732519505700D7258E /* Chatter_Data.swift */,
+				DF803D6F251C900900B099A5 /* Listener_Data.swift */,
+				316EB76F251D6EC30075A237 /* LastMessage_Data.swift */,
+				31F566D8251FD71800B7D1F1 /* BOW_Data.swift */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		31967A6E251946BD00D7258E /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				DFCC112725177F5100BE99FC /* receiverTableViewCell.swift */,
+				DFCC112E25177F6600BE99FC /* SenderTableViewCell.swift */,
+				DFCC112F25177F6600BE99FC /* SenderTableViewCell.xib */,
+				DFCC112825177F5100BE99FC /* receiverTableViewCell.xib */,
+				31967A6F251946F600D7258E /* PastConversationCell.swift */,
+			);
+			path = "Custom Cells";
+			sourceTree = "<group>";
+		};
+		31A4ED9E250A973600EF7A52 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DF6F9AD12507401B009A6A56 /* DashboardVC.swift */,
+				DFAAD603250BD66A006BEB28 /* LoggingInAlertViewController.swift */,
+				DFAAD609250D01C5006BEB28 /* LoadingAlertViewController.swift */,
+				31A4EDA0250A97C200EF7A52 /* ProfileVC.swift */,
+				DF6F9B04250749A3009A6A56 /* SplashViewController.swift */,
+				31A4EDA2250A9A3800EF7A52 /* TabBarVC.swift */,
+				DFAAD5FB250AA551006BEB28 /* LoginViewController.swift */,
+				DFAAD607250CEFAC006BEB28 /* OnBoardOneViewController.swift */,
+				DFAAD60B250D0474006BEB28 /* OnBoardTwoViewController.swift */,
+				DFAAD60F250D266D006BEB28 /* CustomCameraViewController.swift */,
+				31E61779250FD18E00D06AC8 /* HotlineViewController.swift */,
+				31A5CB342513EB59001BF7CB /* WebViewController.swift */,
+				DFD996552515E83E00737276 /* HamPopupViewController.swift */,
+				DFD996572515EB6D00737276 /* Hamburgerpopover.swift */,
+				31FF41612516D95B00253491 /* EditProfileViewController.swift */,
+				DFD996592517211000737276 /* ChatViewController.swift */,
+				31967A6C251935C200D7258E /* DisplayProfileViewController.swift */,
+				DF803D6A251C7B0E00B099A5 /* SolaceViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		31A4ED9F250A974C00EF7A52 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				31A4ED9C250A965300EF7A52 /* BackgroundUtility.swift */,
+				DF6F9AD92507401B009A6A56 /* Assets.xcassets */,
+				DF6F9B1A25076169009A6A56 /* splash_anim_ios.json */,
+				DF6F9AD62507401B009A6A56 /* Solace_IOS.xcdatamodeld */,
+				DF6F9B002507405F009A6A56 /* GoogleService-Info.plist */,
+				DFAAD5FF250BD065006BEB28 /* Toast.swift */,
+				DFAAD60D250D061D006BEB28 /* ImageUtility.swift */,
+				DFAAD611250D277D006BEB28 /* PhotoPreviewView.swift */,
+				DFAAD613250D27CF006BEB28 /* UIViewExtension.swift */,
+				31967A712519482D00D7258E /* PastConvoDelegate.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		31A5CB312513EB16001BF7CB /* font */ = {
+			isa = PBXGroup;
+			children = (
+				31A5CB322513EB17001BF7CB /* activereg.otf */,
+			);
+			name = font;
+			path = Solace_IOS/font;
+			sourceTree = SOURCE_ROOT;
+		};
+		4D97D4A59A87B873E1D814FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CE0711EEA20B445EB17A3E5 /* Pods-Solace_IOS.debug.xcconfig */,
+				6DF8C4E8FBDB5FC6C8ED4A2C /* Pods-Solace_IOS.release.xcconfig */,
+				92FC5EBDD99EC6605CEB1911 /* Pods-Solace_IOS-Solace_IOSUITests.debug.xcconfig */,
+				87A1BCF2BBCA8A735D805F9D /* Pods-Solace_IOS-Solace_IOSUITests.release.xcconfig */,
+				3235441B7D9183AAA5665F04 /* Pods-Solace_IOSTests.debug.xcconfig */,
+				E8FE63D94448ACA58B7CC21D /* Pods-Solace_IOSTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		500ACFE26EC613B07BEA7B87 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FE307BABD3F90B7985D062F3 /* Pods_Solace_IOS.framework */,
+				FB4BFFAAB2CDB7F8C84CC610 /* Pods_Solace_IOS_Solace_IOSUITests.framework */,
+				D57A07100153B8F3AB9B6B85 /* Pods_Solace_IOSTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF6F9AC12507401B009A6A56 = {
+			isa = PBXGroup;
+			children = (
+				DF6F9ACC2507401B009A6A56 /* Solace_IOS */,
+				DF6F9AE62507401C009A6A56 /* Solace_IOSTests */,
+				DF6F9AF12507401C009A6A56 /* Solace_IOSUITests */,
+				DF6F9ACB2507401B009A6A56 /* Products */,
+				4D97D4A59A87B873E1D814FF /* Pods */,
+				500ACFE26EC613B07BEA7B87 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF6F9ACB2507401B009A6A56 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF6F9ACA2507401B009A6A56 /* Solace_IOS.app */,
+				DF6F9AE32507401C009A6A56 /* Solace_IOSTests.xctest */,
+				DF6F9AEE2507401C009A6A56 /* Solace_IOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF6F9ACC2507401B009A6A56 /* Solace_IOS */ = {
+			isa = PBXGroup;
+			children = (
+				DF6F9ACD2507401B009A6A56 /* AppDelegate.swift */,
+				DF6F9ACF2507401B009A6A56 /* SceneDelegate.swift */,
+				DF6F9AD32507401B009A6A56 /* Main.storyboard */,
+				31A5CB312513EB16001BF7CB /* font */,
+				31634F1D250E9098005F1A3F /* Data Models */,
+				31967A6E251946BD00D7258E /* Custom Cells */,
+				31A4ED9E250A973600EF7A52 /* View Controllers */,
+				31A4ED9F250A974C00EF7A52 /* Utilities */,
+				DF6F9ADB2507401B009A6A56 /* LaunchScreen.storyboard */,
+				DF6F9ADE2507401B009A6A56 /* Info.plist */,
+				DFAAD601250BD5E1006BEB28 /* Alerts.storyboard */,
+				DFAAD605250BDBCC006BEB28 /* AlertService.swift */,
+			);
+			path = Solace_IOS;
+			sourceTree = "<group>";
+		};
+		DF6F9AE62507401C009A6A56 /* Solace_IOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF6F9AE72507401C009A6A56 /* Solace_IOSTests.swift */,
+				DF6F9AE92507401C009A6A56 /* Info.plist */,
+			);
+			path = Solace_IOSTests;
+			sourceTree = "<group>";
+		};
+		DF6F9AF12507401C009A6A56 /* Solace_IOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF6F9AF22507401C009A6A56 /* Solace_IOSUITests.swift */,
+				DF6F9AF42507401C009A6A56 /* Info.plist */,
+			);
+			path = Solace_IOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF6F9AC92507401B009A6A56 /* Solace_IOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6F9AF72507401C009A6A56 /* Build configuration list for PBXNativeTarget "Solace_IOS" */;
+			buildPhases = (
+				4C047E88FBB447BFE3A75CD2 /* [CP] Check Pods Manifest.lock */,
+				DF6F9AC62507401B009A6A56 /* Sources */,
+				DF6F9AC72507401B009A6A56 /* Frameworks */,
+				DF6F9AC82507401B009A6A56 /* Resources */,
+				2401740508CE52A7DD945157 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Solace_IOS;
+			productName = Solace_IOS;
+			productReference = DF6F9ACA2507401B009A6A56 /* Solace_IOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF6F9AE22507401C009A6A56 /* Solace_IOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6F9AFA2507401C009A6A56 /* Build configuration list for PBXNativeTarget "Solace_IOSTests" */;
+			buildPhases = (
+				F754BCDF15AE15765A8F6224 /* [CP] Check Pods Manifest.lock */,
+				DF6F9ADF2507401C009A6A56 /* Sources */,
+				DF6F9AE02507401C009A6A56 /* Frameworks */,
+				DF6F9AE12507401C009A6A56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF6F9AE52507401C009A6A56 /* PBXTargetDependency */,
+			);
+			name = Solace_IOSTests;
+			productName = Solace_IOSTests;
+			productReference = DF6F9AE32507401C009A6A56 /* Solace_IOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF6F9AED2507401C009A6A56 /* Solace_IOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF6F9AFD2507401C009A6A56 /* Build configuration list for PBXNativeTarget "Solace_IOSUITests" */;
+			buildPhases = (
+				F36358000789558E54980654 /* [CP] Check Pods Manifest.lock */,
+				DF6F9AEA2507401C009A6A56 /* Sources */,
+				DF6F9AEB2507401C009A6A56 /* Frameworks */,
+				DF6F9AEC2507401C009A6A56 /* Resources */,
+				4D6C3D401DBB7B5596C8A5E6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF6F9AF02507401C009A6A56 /* PBXTargetDependency */,
+			);
+			name = Solace_IOSUITests;
+			productName = Solace_IOSUITests;
+			productReference = DF6F9AEE2507401C009A6A56 /* Solace_IOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF6F9AC22507401B009A6A56 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Jerad Alexander";
+				TargetAttributes = {
+					DF6F9AC92507401B009A6A56 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					DF6F9AE22507401C009A6A56 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = DF6F9AC92507401B009A6A56;
+					};
+					DF6F9AED2507401C009A6A56 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = DF6F9AC92507401B009A6A56;
+					};
+				};
+			};
+			buildConfigurationList = DF6F9AC52507401B009A6A56 /* Build configuration list for PBXProject "Solace_IOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF6F9AC12507401B009A6A56;
+			productRefGroup = DF6F9ACB2507401B009A6A56 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF6F9AC92507401B009A6A56 /* Solace_IOS */,
+				DF6F9AE22507401C009A6A56 /* Solace_IOSTests */,
+				DF6F9AED2507401C009A6A56 /* Solace_IOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF6F9AC82507401B009A6A56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCC11412517888100BE99FC /* SenderTableViewCell.swift in Resources */,
+				DFCC113D2517887900BE99FC /* receiverTableViewCell.swift in Resources */,
+				DF6F9ADD2507401B009A6A56 /* LaunchScreen.storyboard in Resources */,
+				DF6F9B012507405F009A6A56 /* GoogleService-Info.plist in Resources */,
+				DFCC112A25177F5100BE99FC /* receiverTableViewCell.xib in Resources */,
+				DF6F9ADA2507401B009A6A56 /* Assets.xcassets in Resources */,
+				DFCC113125177F6600BE99FC /* SenderTableViewCell.xib in Resources */,
+				DF6F9AD52507401B009A6A56 /* Main.storyboard in Resources */,
+				DF6F9B1B25076169009A6A56 /* splash_anim_ios.json in Resources */,
+				31A5CB332513EB17001BF7CB /* activereg.otf in Resources */,
+				DFAAD602250BD5E1006BEB28 /* Alerts.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6F9AE12507401C009A6A56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCC1135251786C500BE99FC /* receiverTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6F9AEC2507401C009A6A56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFCC1139251786C600BE99FC /* receiverTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2401740508CE52A7DD945157 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Solace_IOS/Pods-Solace_IOS-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Solace_IOS/Pods-Solace_IOS-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Solace_IOS/Pods-Solace_IOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C047E88FBB447BFE3A75CD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Solace_IOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4D6C3D401DBB7B5596C8A5E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Solace_IOS-Solace_IOSUITests/Pods-Solace_IOS-Solace_IOSUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Solace_IOS-Solace_IOSUITests/Pods-Solace_IOS-Solace_IOSUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Solace_IOS-Solace_IOSUITests/Pods-Solace_IOS-Solace_IOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F36358000789558E54980654 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Solace_IOS-Solace_IOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F754BCDF15AE15765A8F6224 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Solace_IOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF6F9AC62507401B009A6A56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				31634F1F250E90CA005F1A3F /* Api_Data.swift in Sources */,
+				31967A742519505700D7258E /* Chatter_Data.swift in Sources */,
+				31967A722519482D00D7258E /* PastConvoDelegate.swift in Sources */,
+				DFD996582515EB6D00737276 /* Hamburgerpopover.swift in Sources */,
+				31A5CB352513EB59001BF7CB /* WebViewController.swift in Sources */,
+				DFAAD5FC250AA551006BEB28 /* LoginViewController.swift in Sources */,
+				DF6F9AD82507401B009A6A56 /* Solace_IOS.xcdatamodeld in Sources */,
+				DF6F9AD22507401B009A6A56 /* DashboardVC.swift in Sources */,
+				DFAAD60A250D01C5006BEB28 /* LoadingAlertViewController.swift in Sources */,
+				31E6177A250FD18E00D06AC8 /* HotlineViewController.swift in Sources */,
+				DFAAD60E250D061D006BEB28 /* ImageUtility.swift in Sources */,
+				DF6F9ACE2507401B009A6A56 /* AppDelegate.swift in Sources */,
+				31967A70251946F600D7258E /* PastConversationCell.swift in Sources */,
+				DFD996562515E83E00737276 /* HamPopupViewController.swift in Sources */,
+				DF803D70251C900900B099A5 /* Listener_Data.swift in Sources */,
+				DF6F9AD02507401B009A6A56 /* SceneDelegate.swift in Sources */,
+				31A4ED9D250A965300EF7A52 /* BackgroundUtility.swift in Sources */,
+				DF6F9B05250749A3009A6A56 /* SplashViewController.swift in Sources */,
+				DFCC112925177F5100BE99FC /* receiverTableViewCell.swift in Sources */,
+				DFAAD600250BD065006BEB28 /* Toast.swift in Sources */,
+				DFAAD60C250D0474006BEB28 /* OnBoardTwoViewController.swift in Sources */,
+				DFAAD608250CEFAC006BEB28 /* OnBoardOneViewController.swift in Sources */,
+				DFAAD610250D266D006BEB28 /* CustomCameraViewController.swift in Sources */,
+				DFAAD614250D27CF006BEB28 /* UIViewExtension.swift in Sources */,
+				31A4EDA3250A9A3800EF7A52 /* TabBarVC.swift in Sources */,
+				DFAAD604250BD66A006BEB28 /* LoggingInAlertViewController.swift in Sources */,
+				DFCC112325176F6C00BE99FC /* Chat_Data.swift in Sources */,
+				316EB770251D6EC30075A237 /* LastMessage_Data.swift in Sources */,
+				31F566D9251FD71800B7D1F1 /* BOW_Data.swift in Sources */,
+				DFAAD606250BDBCC006BEB28 /* AlertService.swift in Sources */,
+				DFD9965A2517211000737276 /* ChatViewController.swift in Sources */,
+				DFCC113025177F6600BE99FC /* SenderTableViewCell.swift in Sources */,
+				DFAAD612250D277D006BEB28 /* PhotoPreviewView.swift in Sources */,
+				31FF41622516D95B00253491 /* EditProfileViewController.swift in Sources */,
+				31A4EDA1250A97C200EF7A52 /* ProfileVC.swift in Sources */,
+				31967A6D251935C200D7258E /* DisplayProfileViewController.swift in Sources */,
+				DF803D6B251C7B0E00B099A5 /* SolaceViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6F9ADF2507401C009A6A56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6F9AE82507401C009A6A56 /* Solace_IOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF6F9AEA2507401C009A6A56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6F9AF32507401C009A6A56 /* Solace_IOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF6F9AE52507401C009A6A56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF6F9AC92507401B009A6A56 /* Solace_IOS */;
+			targetProxy = DF6F9AE42507401C009A6A56 /* PBXContainerItemProxy */;
+		};
+		DF6F9AF02507401C009A6A56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF6F9AC92507401B009A6A56 /* Solace_IOS */;
+			targetProxy = DF6F9AEF2507401C009A6A56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF6F9AD32507401B009A6A56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF6F9AD42507401B009A6A56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF6F9ADB2507401B009A6A56 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF6F9ADC2507401B009A6A56 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF6F9AF52507401C009A6A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF6F9AF62507401C009A6A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF6F9AF82507401C009A6A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CE0711EEA20B445EB17A3E5 /* Pods-Solace_IOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				INFOPLIST_FILE = Solace_IOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.Solace-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF6F9AF92507401C009A6A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF8C4E8FBDB5FC6C8ED4A2C /* Pods-Solace_IOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				INFOPLIST_FILE = Solace_IOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.Solace-IOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF6F9AFB2507401C009A6A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3235441B7D9183AAA5665F04 /* Pods-Solace_IOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				INFOPLIST_FILE = Solace_IOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.Solace-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solace_IOS.app/Solace_IOS";
+			};
+			name = Debug;
+		};
+		DF6F9AFC2507401C009A6A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8FE63D94448ACA58B7CC21D /* Pods-Solace_IOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				INFOPLIST_FILE = Solace_IOSTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.Solace-IOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solace_IOS.app/Solace_IOS";
+			};
+			name = Release;
+		};
+		DF6F9AFE2507401C009A6A56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92FC5EBDD99EC6605CEB1911 /* Pods-Solace_IOS-Solace_IOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				INFOPLIST_FILE = Solace_IOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.Solace-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Solace_IOS;
+			};
+			name = Debug;
+		};
+		DF6F9AFF2507401C009A6A56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 87A1BCF2BBCA8A735D805F9D /* Pods-Solace_IOS-Solace_IOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				INFOPLIST_FILE = Solace_IOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.Solace-IOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Solace_IOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF6F9AC52507401B009A6A56 /* Build configuration list for PBXProject "Solace_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6F9AF52507401C009A6A56 /* Debug */,
+				DF6F9AF62507401C009A6A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6F9AF72507401C009A6A56 /* Build configuration list for PBXNativeTarget "Solace_IOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6F9AF82507401C009A6A56 /* Debug */,
+				DF6F9AF92507401C009A6A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6F9AFA2507401C009A6A56 /* Build configuration list for PBXNativeTarget "Solace_IOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6F9AFB2507401C009A6A56 /* Debug */,
+				DF6F9AFC2507401C009A6A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF6F9AFD2507401C009A6A56 /* Build configuration list for PBXNativeTarget "Solace_IOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF6F9AFE2507401C009A6A56 /* Debug */,
+				DF6F9AFF2507401C009A6A56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF6F9AD62507401B009A6A56 /* Solace_IOS.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF6F9AD72507401B009A6A56 /* Solace_IOS.xcdatamodel */,
+			);
+			currentVersion = DF6F9AD72507401B009A6A56 /* Solace_IOS.xcdatamodel */;
+			path = Solace_IOS.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF6F9AC22507401B009A6A56 /* Project object */;
+}

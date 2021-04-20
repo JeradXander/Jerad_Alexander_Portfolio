@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="QJM-qB-W8R">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Logging In Alert View Controller-->
+        <scene sceneID="jLq-iF-Y7q">
+            <objects>
+                <viewController storyboardIdentifier="Logging" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="QJM-qB-W8R" customClass="LoggingInAlertViewController" customModule="Solace_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="4pc-K7-8K7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="buP-av-XWr">
+                                <rect key="frame" x="82" y="303" width="250" height="300"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Logging in " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VoT-N3-Fm8">
+                                        <rect key="frame" x="58" y="215" width="134" height="51"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="51" id="Tbe-qd-e07"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                        <color key="textColor" red="0.98536545040000001" green="0.91275590660000006" blue="0.32137900590000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="SolaceDarkGreen"/>
+                                <constraints>
+                                    <constraint firstItem="VoT-N3-Fm8" firstAttribute="centerX" secondItem="buP-av-XWr" secondAttribute="centerX" id="9ng-z9-Lta"/>
+                                    <constraint firstAttribute="trailing" secondItem="VoT-N3-Fm8" secondAttribute="trailing" constant="58" id="JmD-qv-lPv"/>
+                                    <constraint firstItem="VoT-N3-Fm8" firstAttribute="width" secondItem="buP-av-XWr" secondAttribute="width" multiplier="0.536" id="S3m-o8-enJ"/>
+                                    <constraint firstAttribute="height" constant="300" id="gff-Gv-IQS"/>
+                                    <constraint firstAttribute="bottom" secondItem="VoT-N3-Fm8" secondAttribute="bottom" constant="34" id="qI6-FS-S1Y"/>
+                                    <constraint firstItem="VoT-N3-Fm8" firstAttribute="leading" secondItem="buP-av-XWr" secondAttribute="leading" constant="58" id="v7f-4u-Uuz"/>
+                                    <constraint firstAttribute="width" constant="250" id="zyB-95-tru"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Lp3-1V-O1Z" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="87" y="326" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="splash_anim_ios"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Ajl-fm-lTE"/>
+                        <color key="backgroundColor" red="0.57254452241977161" green="1" blue="0.61961502774362887" alpha="0.349609375" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="Lp3-1V-O1Z" firstAttribute="width" secondItem="buP-av-XWr" secondAttribute="width" multiplier="0.96" id="Bo7-yY-VhU"/>
+                            <constraint firstItem="buP-av-XWr" firstAttribute="centerY" secondItem="Ajl-fm-lTE" secondAttribute="centerY" id="FIm-05-UOa"/>
+                            <constraint firstItem="Lp3-1V-O1Z" firstAttribute="height" secondItem="buP-av-XWr" secondAttribute="height" multiplier="0.426667" id="Qxt-1M-I9N"/>
+                            <constraint firstItem="buP-av-XWr" firstAttribute="top" secondItem="Lp3-1V-O1Z" secondAttribute="bottom" constant="-151" id="R3R-zg-o0T"/>
+                            <constraint firstItem="buP-av-XWr" firstAttribute="centerX" secondItem="Ajl-fm-lTE" secondAttribute="centerX" id="oZu-kF-h16"/>
+                            <constraint firstItem="Lp3-1V-O1Z" firstAttribute="centerX" secondItem="buP-av-XWr" secondAttribute="centerX" id="wkA-i1-of5"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="896"/>
+                    <connections>
+                        <outlet property="alertLabel" destination="VoT-N3-Fm8" id="7bS-5V-qwU"/>
+                        <outlet property="splashAnim" destination="Lp3-1V-O1Z" id="pJK-oP-PbF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EPR-GM-QHo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-188" y="94"/>
+        </scene>
+        <!--Loading Alert View Controller-->
+        <scene sceneID="k2S-tR-tbu">
+            <objects>
+                <viewController storyboardIdentifier="Loading" modalPresentationStyle="fullScreen" useStoryboardIdentifierAsRestorationIdentifier="YES" id="Gy9-Py-GB5" customClass="LoadingAlertViewController" customModule="Solace_IOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ROd-mT-qOW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="blI-GF-mxZ">
+                                <rect key="frame" x="82" y="303" width="250" height="300"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loading" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JyZ-cX-wwg">
+                                        <rect key="frame" x="58" y="215" width="134" height="51"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="51" id="TXk-Vf-xrz"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" name="Chalkduster" family="Chalkduster" pointSize="20"/>
+                                        <color key="textColor" red="0.98536545040000001" green="0.91275590660000006" blue="0.32137900590000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="SolaceDarkGreen"/>
+                                <constraints>
+                                    <constraint firstItem="JyZ-cX-wwg" firstAttribute="width" secondItem="blI-GF-mxZ" secondAttribute="width" multiplier="0.536" id="36G-dy-2Fd"/>
+                                    <constraint firstAttribute="width" constant="250" id="BQv-jg-kKq"/>
+                                    <constraint firstItem="JyZ-cX-wwg" firstAttribute="leading" secondItem="blI-GF-mxZ" secondAttribute="leading" constant="58" id="UOE-2B-h9t"/>
+                                    <constraint firstAttribute="trailing" secondItem="JyZ-cX-wwg" secondAttribute="trailing" constant="58" id="VNq-78-ShS"/>
+                                    <constraint firstItem="JyZ-cX-wwg" firstAttribute="centerX" secondItem="blI-GF-mxZ" secondAttribute="centerX" id="Vhm-jJ-vBB"/>
+                                    <constraint firstAttribute="bottom" secondItem="JyZ-cX-wwg" secondAttribute="bottom" constant="34" id="l4h-DT-cOR"/>
+                                    <constraint firstAttribute="height" constant="300" id="qXo-6f-PdH"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="j4e-27-An1" customClass="AnimationView" customModule="Lottie">
+                                <rect key="frame" x="87" y="326" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="animationName" value="splash_anim_ios"/>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="Mp4-tZ-GdG"/>
+                        <color key="backgroundColor" red="0.57254452239999998" green="1" blue="0.61961502769999999" alpha="0.349609375" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstItem="blI-GF-mxZ" firstAttribute="centerY" secondItem="Mp4-tZ-GdG" secondAttribute="centerY" id="7CI-1c-SW7"/>
+                            <constraint firstItem="blI-GF-mxZ" firstAttribute="top" secondItem="j4e-27-An1" secondAttribute="bottom" constant="-151" id="FDa-7D-eNo"/>
+                            <constraint firstItem="blI-GF-mxZ" firstAttribute="centerX" secondItem="Mp4-tZ-GdG" secondAttribute="centerX" id="KWh-qc-Wjg"/>
+                            <constraint firstItem="j4e-27-An1" firstAttribute="height" secondItem="blI-GF-mxZ" secondAttribute="height" multiplier="0.426667" id="N7y-aK-0zT"/>
+                            <constraint firstItem="j4e-27-An1" firstAttribute="centerX" secondItem="blI-GF-mxZ" secondAttribute="centerX" id="UyR-9A-tn3"/>
+                            <constraint firstItem="j4e-27-An1" firstAttribute="width" secondItem="blI-GF-mxZ" secondAttribute="width" multiplier="0.96" id="pdv-Nu-WAu"/>
+                        </constraints>
+                    </view>
+                    <size key="freeformSize" width="414" height="896"/>
+                    <connections>
+                        <outlet property="alertLabel" destination="JyZ-cX-wwg" id="zd5-f4-hpA"/>
+                        <outlet property="splashAnim" destination="j4e-27-An1" id="OEi-Oi-Hge"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rsK-IM-Q8Y" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="532" y="94"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="SolaceDarkGreen">
+            <color red="0.38499999046325684" green="0.67000001668930054" blue="0.41200000047683716" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,916 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DFD11D7A244F75C600127FA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD11D79244F75C600127FA4 /* AppDelegate.swift */; };
+		DFD11D7C244F75C600127FA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD11D7B244F75C600127FA4 /* SceneDelegate.swift */; };
+		DFD11D81244F75C600127FA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD11D7F244F75C600127FA4 /* Main.storyboard */; };
+		DFD11D83244F75C700127FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD11D82244F75C700127FA4 /* Assets.xcassets */; };
+		DFD11D86244F75C700127FA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD11D84244F75C700127FA4 /* LaunchScreen.storyboard */; };
+		DFD11D91244F75C700127FA4 /* AlexanderJerad_WearableProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD11D90244F75C700127FA4 /* AlexanderJerad_WearableProjectTests.swift */; };
+		DFD11D9C244F75C700127FA4 /* AlexanderJerad_WearableProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD11D9B244F75C700127FA4 /* AlexanderJerad_WearableProjectUITests.swift */; };
+		DFD11DA1244F75C700127FA4 /* AlexanderJerad_WearableProject WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DFD11DA0244F75C700127FA4 /* AlexanderJerad_WearableProject WatchKit App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DFD11DA7244F75C700127FA4 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFD11DA5244F75C700127FA4 /* Interface.storyboard */; };
+		DFD11DA9244F75C800127FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD11DA8244F75C800127FA4 /* Assets.xcassets */; };
+		DFD11DB0244F75C800127FA4 /* AlexanderJerad_WearableProject WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DFD11DAF244F75C800127FA4 /* AlexanderJerad_WearableProject WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		DFD11DB5244F75C800127FA4 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD11DB4244F75C800127FA4 /* InterfaceController.swift */; };
+		DFD11DB7244F75C800127FA4 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD11DB6244F75C800127FA4 /* ExtensionDelegate.swift */; };
+		DFD11DB9244F75C800127FA4 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD11DB8244F75C800127FA4 /* NotificationController.swift */; };
+		DFD11DBB244F75C900127FA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFD11DBA244F75C900127FA4 /* Assets.xcassets */; };
+		DFD11DD2244F78FE00127FA4 /* HealthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD11DD1244F78FE00127FA4 /* HealthViewController.swift */; };
+		DFD11DD6244F7D1300127FA4 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD11DD5244F7D1300127FA4 /* HealthKit.framework */; };
+		DFD11DD9244F7D4000127FA4 /* HealthKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFD11DD8244F7D4000127FA4 /* HealthKit.framework */; };
+		DFD11DDB244F9F3200127FA4 /* HeightInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD11DDA244F9F3200127FA4 /* HeightInterfaceController.swift */; };
+		DFD11DDD244F9F3E00127FA4 /* WeightInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD11DDC244F9F3E00127FA4 /* WeightInterfaceController.swift */; };
+		DFD11DDF244F9F4900127FA4 /* BPInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD11DDE244F9F4900127FA4 /* BPInterfaceController.swift */; };
+		DFD11DE1244FC00B00127FA4 /* RestingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFD11DE0244FC00B00127FA4 /* RestingController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DFD11D8D244F75C700127FA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFD11D6E244F75C600127FA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFD11D75244F75C600127FA4;
+			remoteInfo = AlexanderJerad_WearableProject;
+		};
+		DFD11D98244F75C700127FA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFD11D6E244F75C600127FA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFD11D75244F75C600127FA4;
+			remoteInfo = AlexanderJerad_WearableProject;
+		};
+		DFD11DA2244F75C700127FA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFD11D6E244F75C600127FA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFD11D9F244F75C700127FA4;
+			remoteInfo = "AlexanderJerad_WearableProject WatchKit App";
+		};
+		DFD11DB1244F75C800127FA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DFD11D6E244F75C600127FA4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DFD11DAE244F75C800127FA4;
+			remoteInfo = "AlexanderJerad_WearableProject WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DFD11DC3244F75C900127FA4 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DFD11DB0244F75C800127FA4 /* AlexanderJerad_WearableProject WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD11DC7244F75C900127FA4 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DFD11DA1244F75C700127FA4 /* AlexanderJerad_WearableProject WatchKit App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DFD11D76244F75C600127FA4 /* AlexanderJerad_WearableProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlexanderJerad_WearableProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD11D79244F75C600127FA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DFD11D7B244F75C600127FA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DFD11D80244F75C600127FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DFD11D82244F75C700127FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFD11D85244F75C700127FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DFD11D87244F75C700127FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD11D8C244F75C700127FA4 /* AlexanderJerad_WearableProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlexanderJerad_WearableProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD11D90244F75C700127FA4 /* AlexanderJerad_WearableProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlexanderJerad_WearableProjectTests.swift; sourceTree = "<group>"; };
+		DFD11D92244F75C700127FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD11D97244F75C700127FA4 /* AlexanderJerad_WearableProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlexanderJerad_WearableProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD11D9B244F75C700127FA4 /* AlexanderJerad_WearableProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlexanderJerad_WearableProjectUITests.swift; sourceTree = "<group>"; };
+		DFD11D9D244F75C700127FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD11DA0244F75C700127FA4 /* AlexanderJerad_WearableProject WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AlexanderJerad_WearableProject WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD11DA6244F75C700127FA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DFD11DA8244F75C800127FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFD11DAA244F75C800127FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD11DAF244F75C800127FA4 /* AlexanderJerad_WearableProject WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AlexanderJerad_WearableProject WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DFD11DB4244F75C800127FA4 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		DFD11DB6244F75C800127FA4 /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		DFD11DB8244F75C800127FA4 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		DFD11DBA244F75C900127FA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DFD11DBC244F75C900127FA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DFD11DBD244F75C900127FA4 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		DFD11DD1244F78FE00127FA4 /* HealthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthViewController.swift; sourceTree = "<group>"; };
+		DFD11DD3244F7D1200127FA4 /* AlexanderJerad_WearableProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AlexanderJerad_WearableProject.entitlements; sourceTree = "<group>"; };
+		DFD11DD5244F7D1300127FA4 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = System/Library/Frameworks/HealthKit.framework; sourceTree = SDKROOT; };
+		DFD11DD7244F7D4000127FA4 /* AlexanderJerad_WearableProject WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "AlexanderJerad_WearableProject WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		DFD11DD8244F7D4000127FA4 /* HealthKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = HealthKit.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS6.2.sdk/System/Library/Frameworks/HealthKit.framework; sourceTree = DEVELOPER_DIR; };
+		DFD11DDA244F9F3200127FA4 /* HeightInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeightInterfaceController.swift; sourceTree = "<group>"; };
+		DFD11DDC244F9F3E00127FA4 /* WeightInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeightInterfaceController.swift; sourceTree = "<group>"; };
+		DFD11DDE244F9F4900127FA4 /* BPInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BPInterfaceController.swift; sourceTree = "<group>"; };
+		DFD11DE0244FC00B00127FA4 /* RestingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestingController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DFD11D73244F75C600127FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD11DD6244F7D1300127FA4 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD11D89244F75C700127FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD11D94244F75C700127FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD11DAC244F75C800127FA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD11DD9244F7D4000127FA4 /* HealthKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DFD11D6D244F75C600127FA4 = {
+			isa = PBXGroup;
+			children = (
+				DFD11D78244F75C600127FA4 /* AlexanderJerad_WearableProject */,
+				DFD11D8F244F75C700127FA4 /* AlexanderJerad_WearableProjectTests */,
+				DFD11D9A244F75C700127FA4 /* AlexanderJerad_WearableProjectUITests */,
+				DFD11DA4244F75C700127FA4 /* AlexanderJerad_WearableProject WatchKit App */,
+				DFD11DB3244F75C800127FA4 /* AlexanderJerad_WearableProject WatchKit Extension */,
+				DFD11D77244F75C600127FA4 /* Products */,
+				DFD11DD4244F7D1300127FA4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DFD11D77244F75C600127FA4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DFD11D76244F75C600127FA4 /* AlexanderJerad_WearableProject.app */,
+				DFD11D8C244F75C700127FA4 /* AlexanderJerad_WearableProjectTests.xctest */,
+				DFD11D97244F75C700127FA4 /* AlexanderJerad_WearableProjectUITests.xctest */,
+				DFD11DA0244F75C700127FA4 /* AlexanderJerad_WearableProject WatchKit App.app */,
+				DFD11DAF244F75C800127FA4 /* AlexanderJerad_WearableProject WatchKit Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DFD11D78244F75C600127FA4 /* AlexanderJerad_WearableProject */ = {
+			isa = PBXGroup;
+			children = (
+				DFD11DD3244F7D1200127FA4 /* AlexanderJerad_WearableProject.entitlements */,
+				DFD11D79244F75C600127FA4 /* AppDelegate.swift */,
+				DFD11D7B244F75C600127FA4 /* SceneDelegate.swift */,
+				DFD11DD1244F78FE00127FA4 /* HealthViewController.swift */,
+				DFD11D7F244F75C600127FA4 /* Main.storyboard */,
+				DFD11D82244F75C700127FA4 /* Assets.xcassets */,
+				DFD11D84244F75C700127FA4 /* LaunchScreen.storyboard */,
+				DFD11D87244F75C700127FA4 /* Info.plist */,
+			);
+			path = AlexanderJerad_WearableProject;
+			sourceTree = "<group>";
+		};
+		DFD11D8F244F75C700127FA4 /* AlexanderJerad_WearableProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				DFD11D90244F75C700127FA4 /* AlexanderJerad_WearableProjectTests.swift */,
+				DFD11D92244F75C700127FA4 /* Info.plist */,
+			);
+			path = AlexanderJerad_WearableProjectTests;
+			sourceTree = "<group>";
+		};
+		DFD11D9A244F75C700127FA4 /* AlexanderJerad_WearableProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DFD11D9B244F75C700127FA4 /* AlexanderJerad_WearableProjectUITests.swift */,
+				DFD11D9D244F75C700127FA4 /* Info.plist */,
+			);
+			path = AlexanderJerad_WearableProjectUITests;
+			sourceTree = "<group>";
+		};
+		DFD11DA4244F75C700127FA4 /* AlexanderJerad_WearableProject WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				DFD11DA5244F75C700127FA4 /* Interface.storyboard */,
+				DFD11DA8244F75C800127FA4 /* Assets.xcassets */,
+				DFD11DAA244F75C800127FA4 /* Info.plist */,
+			);
+			path = "AlexanderJerad_WearableProject WatchKit App";
+			sourceTree = "<group>";
+		};
+		DFD11DB3244F75C800127FA4 /* AlexanderJerad_WearableProject WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DFD11DD7244F7D4000127FA4 /* AlexanderJerad_WearableProject WatchKit Extension.entitlements */,
+				DFD11DB4244F75C800127FA4 /* InterfaceController.swift */,
+				DFD11DB6244F75C800127FA4 /* ExtensionDelegate.swift */,
+				DFD11DB8244F75C800127FA4 /* NotificationController.swift */,
+				DFD11DE0244FC00B00127FA4 /* RestingController.swift */,
+				DFD11DBA244F75C900127FA4 /* Assets.xcassets */,
+				DFD11DBC244F75C900127FA4 /* Info.plist */,
+				DFD11DBD244F75C900127FA4 /* PushNotificationPayload.apns */,
+				DFD11DDA244F9F3200127FA4 /* HeightInterfaceController.swift */,
+				DFD11DDC244F9F3E00127FA4 /* WeightInterfaceController.swift */,
+				DFD11DDE244F9F4900127FA4 /* BPInterfaceController.swift */,
+			);
+			path = "AlexanderJerad_WearableProject WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		DFD11DD4244F7D1300127FA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DFD11DD8244F7D4000127FA4 /* HealthKit.framework */,
+				DFD11DD5244F7D1300127FA4 /* HealthKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DFD11D75244F75C600127FA4 /* AlexanderJerad_WearableProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD11DC8244F75C900127FA4 /* Build configuration list for PBXNativeTarget "AlexanderJerad_WearableProject" */;
+			buildPhases = (
+				DFD11D72244F75C600127FA4 /* Sources */,
+				DFD11D73244F75C600127FA4 /* Frameworks */,
+				DFD11D74244F75C600127FA4 /* Resources */,
+				DFD11DC7244F75C900127FA4 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD11DA3244F75C700127FA4 /* PBXTargetDependency */,
+			);
+			name = AlexanderJerad_WearableProject;
+			productName = AlexanderJerad_WearableProject;
+			productReference = DFD11D76244F75C600127FA4 /* AlexanderJerad_WearableProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DFD11D8B244F75C700127FA4 /* AlexanderJerad_WearableProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD11DCB244F75C900127FA4 /* Build configuration list for PBXNativeTarget "AlexanderJerad_WearableProjectTests" */;
+			buildPhases = (
+				DFD11D88244F75C700127FA4 /* Sources */,
+				DFD11D89244F75C700127FA4 /* Frameworks */,
+				DFD11D8A244F75C700127FA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD11D8E244F75C700127FA4 /* PBXTargetDependency */,
+			);
+			name = AlexanderJerad_WearableProjectTests;
+			productName = AlexanderJerad_WearableProjectTests;
+			productReference = DFD11D8C244F75C700127FA4 /* AlexanderJerad_WearableProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DFD11D96244F75C700127FA4 /* AlexanderJerad_WearableProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD11DCE244F75C900127FA4 /* Build configuration list for PBXNativeTarget "AlexanderJerad_WearableProjectUITests" */;
+			buildPhases = (
+				DFD11D93244F75C700127FA4 /* Sources */,
+				DFD11D94244F75C700127FA4 /* Frameworks */,
+				DFD11D95244F75C700127FA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD11D99244F75C700127FA4 /* PBXTargetDependency */,
+			);
+			name = AlexanderJerad_WearableProjectUITests;
+			productName = AlexanderJerad_WearableProjectUITests;
+			productReference = DFD11D97244F75C700127FA4 /* AlexanderJerad_WearableProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DFD11D9F244F75C700127FA4 /* AlexanderJerad_WearableProject WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD11DC4244F75C900127FA4 /* Build configuration list for PBXNativeTarget "AlexanderJerad_WearableProject WatchKit App" */;
+			buildPhases = (
+				DFD11D9E244F75C700127FA4 /* Resources */,
+				DFD11DC3244F75C900127FA4 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DFD11DB2244F75C800127FA4 /* PBXTargetDependency */,
+			);
+			name = "AlexanderJerad_WearableProject WatchKit App";
+			productName = "AlexanderJerad_WearableProject WatchKit App";
+			productReference = DFD11DA0244F75C700127FA4 /* AlexanderJerad_WearableProject WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		DFD11DAE244F75C800127FA4 /* AlexanderJerad_WearableProject WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFD11DC0244F75C900127FA4 /* Build configuration list for PBXNativeTarget "AlexanderJerad_WearableProject WatchKit Extension" */;
+			buildPhases = (
+				DFD11DAB244F75C800127FA4 /* Sources */,
+				DFD11DAC244F75C800127FA4 /* Frameworks */,
+				DFD11DAD244F75C800127FA4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AlexanderJerad_WearableProject WatchKit Extension";
+			productName = "AlexanderJerad_WearableProject WatchKit Extension";
+			productReference = DFD11DAF244F75C800127FA4 /* AlexanderJerad_WearableProject WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DFD11D6E244F75C600127FA4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Jerad Alexander";
+				TargetAttributes = {
+					DFD11D75244F75C600127FA4 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					DFD11D8B244F75C700127FA4 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = DFD11D75244F75C600127FA4;
+					};
+					DFD11D96244F75C700127FA4 = {
+						CreatedOnToolsVersion = 11.4;
+						TestTargetID = DFD11D75244F75C600127FA4;
+					};
+					DFD11D9F244F75C700127FA4 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+					DFD11DAE244F75C800127FA4 = {
+						CreatedOnToolsVersion = 11.4;
+					};
+				};
+			};
+			buildConfigurationList = DFD11D71244F75C600127FA4 /* Build configuration list for PBXProject "AlexanderJerad_WearableProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DFD11D6D244F75C600127FA4;
+			productRefGroup = DFD11D77244F75C600127FA4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DFD11D75244F75C600127FA4 /* AlexanderJerad_WearableProject */,
+				DFD11D8B244F75C700127FA4 /* AlexanderJerad_WearableProjectTests */,
+				DFD11D96244F75C700127FA4 /* AlexanderJerad_WearableProjectUITests */,
+				DFD11D9F244F75C700127FA4 /* AlexanderJerad_WearableProject WatchKit App */,
+				DFD11DAE244F75C800127FA4 /* AlexanderJerad_WearableProject WatchKit Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DFD11D74244F75C600127FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD11D86244F75C700127FA4 /* LaunchScreen.storyboard in Resources */,
+				DFD11D83244F75C700127FA4 /* Assets.xcassets in Resources */,
+				DFD11D81244F75C600127FA4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD11D8A244F75C700127FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD11D95244F75C700127FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD11D9E244F75C700127FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD11DA9244F75C800127FA4 /* Assets.xcassets in Resources */,
+				DFD11DA7244F75C700127FA4 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD11DAD244F75C800127FA4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD11DBB244F75C900127FA4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DFD11D72244F75C600127FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD11D7A244F75C600127FA4 /* AppDelegate.swift in Sources */,
+				DFD11DD2244F78FE00127FA4 /* HealthViewController.swift in Sources */,
+				DFD11D7C244F75C600127FA4 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD11D88244F75C700127FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD11D91244F75C700127FA4 /* AlexanderJerad_WearableProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD11D93244F75C700127FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD11D9C244F75C700127FA4 /* AlexanderJerad_WearableProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD11DAB244F75C800127FA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DFD11DE1244FC00B00127FA4 /* RestingController.swift in Sources */,
+				DFD11DDB244F9F3200127FA4 /* HeightInterfaceController.swift in Sources */,
+				DFD11DB9244F75C800127FA4 /* NotificationController.swift in Sources */,
+				DFD11DB7244F75C800127FA4 /* ExtensionDelegate.swift in Sources */,
+				DFD11DB5244F75C800127FA4 /* InterfaceController.swift in Sources */,
+				DFD11DDD244F9F3E00127FA4 /* WeightInterfaceController.swift in Sources */,
+				DFD11DDF244F9F4900127FA4 /* BPInterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DFD11D8E244F75C700127FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFD11D75244F75C600127FA4 /* AlexanderJerad_WearableProject */;
+			targetProxy = DFD11D8D244F75C700127FA4 /* PBXContainerItemProxy */;
+		};
+		DFD11D99244F75C700127FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFD11D75244F75C600127FA4 /* AlexanderJerad_WearableProject */;
+			targetProxy = DFD11D98244F75C700127FA4 /* PBXContainerItemProxy */;
+		};
+		DFD11DA3244F75C700127FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFD11D9F244F75C700127FA4 /* AlexanderJerad_WearableProject WatchKit App */;
+			targetProxy = DFD11DA2244F75C700127FA4 /* PBXContainerItemProxy */;
+		};
+		DFD11DB2244F75C800127FA4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DFD11DAE244F75C800127FA4 /* AlexanderJerad_WearableProject WatchKit Extension */;
+			targetProxy = DFD11DB1244F75C800127FA4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DFD11D7F244F75C600127FA4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFD11D80244F75C600127FA4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DFD11D84244F75C700127FA4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFD11D85244F75C700127FA4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		DFD11DA5244F75C700127FA4 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DFD11DA6244F75C700127FA4 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DFD11DBE244F75C900127FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DFD11DBF244F75C900127FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFD11DC1244F75C900127FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "AlexanderJerad_WearableProject WatchKit Extension/AlexanderJerad_WearableProject WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				INFOPLIST_FILE = "AlexanderJerad_WearableProject WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.AlexanderJerad-WearableProject.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		DFD11DC2244F75C900127FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "AlexanderJerad_WearableProject WatchKit Extension/AlexanderJerad_WearableProject WatchKit Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				INFOPLIST_FILE = "AlexanderJerad_WearableProject WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.AlexanderJerad-WearableProject.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		DFD11DC5244F75C900127FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				IBSC_MODULE = AlexanderJerad_WearableProject_WatchKit_Extension;
+				INFOPLIST_FILE = "AlexanderJerad_WearableProject WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.AlexanderJerad-WearableProject.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Debug;
+		};
+		DFD11DC6244F75C900127FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				IBSC_MODULE = AlexanderJerad_WearableProject_WatchKit_Extension;
+				INFOPLIST_FILE = "AlexanderJerad_WearableProject WatchKit App/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.AlexanderJerad-WearableProject.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.2;
+			};
+			name = Release;
+		};
+		DFD11DC9244F75C900127FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlexanderJerad_WearableProject/AlexanderJerad_WearableProject.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				INFOPLIST_FILE = AlexanderJerad_WearableProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.AlexanderJerad-WearableProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DFD11DCA244F75C900127FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlexanderJerad_WearableProject/AlexanderJerad_WearableProject.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				INFOPLIST_FILE = AlexanderJerad_WearableProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.AlexanderJerad-WearableProject";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DFD11DCC244F75C900127FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				INFOPLIST_FILE = AlexanderJerad_WearableProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.AlexanderJerad-WearableProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlexanderJerad_WearableProject.app/AlexanderJerad_WearableProject";
+			};
+			name = Debug;
+		};
+		DFD11DCD244F75C900127FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				INFOPLIST_FILE = AlexanderJerad_WearableProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.AlexanderJerad-WearableProjectTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlexanderJerad_WearableProject.app/AlexanderJerad_WearableProject";
+			};
+			name = Release;
+		};
+		DFD11DCF244F75C900127FA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				INFOPLIST_FILE = AlexanderJerad_WearableProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.AlexanderJerad-WearableProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlexanderJerad_WearableProject;
+			};
+			name = Debug;
+		};
+		DFD11DD0244F75C900127FA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				INFOPLIST_FILE = AlexanderJerad_WearableProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.AlexanderJerad-WearableProjectUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlexanderJerad_WearableProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DFD11D71244F75C600127FA4 /* Build configuration list for PBXProject "AlexanderJerad_WearableProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD11DBE244F75C900127FA4 /* Debug */,
+				DFD11DBF244F75C900127FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD11DC0244F75C900127FA4 /* Build configuration list for PBXNativeTarget "AlexanderJerad_WearableProject WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD11DC1244F75C900127FA4 /* Debug */,
+				DFD11DC2244F75C900127FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD11DC4244F75C900127FA4 /* Build configuration list for PBXNativeTarget "AlexanderJerad_WearableProject WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD11DC5244F75C900127FA4 /* Debug */,
+				DFD11DC6244F75C900127FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD11DC8244F75C900127FA4 /* Build configuration list for PBXNativeTarget "AlexanderJerad_WearableProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD11DC9244F75C900127FA4 /* Debug */,
+				DFD11DCA244F75C900127FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD11DCB244F75C900127FA4 /* Build configuration list for PBXNativeTarget "AlexanderJerad_WearableProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD11DCC244F75C900127FA4 /* Debug */,
+				DFD11DCD244F75C900127FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFD11DCE244F75C900127FA4 /* Build configuration list for PBXNativeTarget "AlexanderJerad_WearableProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD11DCF244F75C900127FA4 /* Debug */,
+				DFD11DD0244F75C900127FA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DFD11D6E244F75C600127FA4 /* Project object */;
+}

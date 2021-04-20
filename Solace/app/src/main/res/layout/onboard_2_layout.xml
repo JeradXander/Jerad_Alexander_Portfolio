@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/background"
+    tools:context=".activities.StartingActivity">
+
+    <TextView
+        android:id="@+id/page_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/username_field"
+        android:layout_margin="4dp"
+        android:fontFamily="@font/activereg"
+        android:text="Sign Up Continued"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <ImageButton android:id="@+id/add_imagebuton"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@drawable/avatar_back"
+
+        android:layout_below="@+id/page_label"
+        android:layout_alignStart="@+id/page_label"
+        android:layout_marginTop="10dp"
+        />
+
+
+    <TextView
+        android:id="@+id/hard_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_imagebuton"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-75dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/activereg"
+        android:text="Select Hardship"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <Spinner
+        android:id="@+id/hard_spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/hard_label"
+        android:layout_alignEnd="@+id/hard_label"
+        android:background="@drawable/spinner_back_profile"
+        android:entries="@array/Hardship"
+        android:padding="8dp"
+        android:spinnerMode="dropdown" />
+
+
+    <TextView
+        android:id="@+id/username_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/add_imagebuton"
+        android:layout_alignStart="@+id/username_field"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/activereg"
+        android:text="@string/username"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+
+    <EditText
+        android:id="@+id/username_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/username_label"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/button_back"
+        android:hint="@string/name_must_be_3_20_characters_long"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp"
+        android:shadowColor="@android:color/white"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/darkGrey"
+        android:textSize="20sp"
+        android:maxLength="20"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:nextFocusDown="@id/firstname_feild"/>
+
+
+    <TextView
+        android:id="@+id/firstname_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/username_field"
+        android:layout_alignStart="@+id/username_field"
+        android:fontFamily="@font/activereg"
+        android:text="@string/first_name"
+        android:textSize="20sp"
+        android:textColor="@android:color/white"/>
+
+    <EditText
+        android:id="@+id/firstname_feild"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstname_label"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/button_back"
+        android:hint="@string/enter_first_name"
+        android:inputType="textPersonName"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp"
+        android:shadowColor="@android:color/white"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/darkGrey"
+        android:textSize="20sp"
+        android:maxLength="20"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:nextFocusUp="@id/lastname_feild"/>
+
+    <TextView
+        android:id="@+id/lastname_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstname_feild"
+        android:layout_alignStart="@+id/username_field"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/activereg"
+        android:text="Last Name"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/lastname_feild"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastname_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/button_back"
+        android:hint="@string/enter_last_name"
+        android:inputType="textPersonName"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp"
+        android:shadowColor="@android:color/white"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/darkGrey"
+        android:textSize="20sp"
+        android:maxLength="20"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:nextFocusDown="@id/register_button"/>
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lastname_feild"
+        android:layout_alignStart="@+id/firstname_feild"
+        android:layout_alignEnd="@+id/firstname_feild"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/button_login_reg"
+        android:text="@string/register"
+        android:textColor="@color/color_clickable" />
+
+    <TextView android:id="@+id/login_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/have_a_account_login"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="64dp"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="@color/color_clickable"
+        android:textSize="16sp"
+
+        />
+
+</RelativeLayout>

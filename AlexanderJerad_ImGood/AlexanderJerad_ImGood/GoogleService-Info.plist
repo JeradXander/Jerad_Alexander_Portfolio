@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>161458946137-idfibi0l44smlnv8t38tqn773dcj7k8v.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.161458946137-idfibi0l44smlnv8t38tqn773dcj7k8v</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDN-sEwq__tLiKuXh0ogi_Dw6LNkvHHQ6Q</string>
+	<key>GCM_SENDER_ID</key>
+	<string>161458946137</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.alex.AlexanderJerad-ImGood</string>
+	<key>PROJECT_ID</key>
+	<string>imgood-be79b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>imgood-be79b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:161458946137:ios:e720a8d99c0a5f00557148</string>
+	<key>DATABASE_URL</key>
+	<string>https://imgood-be79b.firebaseio.com</string>
+</dict>
+</plist>

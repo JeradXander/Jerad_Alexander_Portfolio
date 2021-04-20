@@ -1,0 +1,39 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'AlexanderJerad_ImGood' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AlexanderJerad_ImGood
+
+  target 'AlexanderJerad_ImGoodTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'AlexanderJerad_ImGoodUITests' do
+    # Pods for testing
+  end
+  
+  pod 'Firebase/Core'
+  
+ pod 'Firebase/Analytics'
+ 
+ pod 'Firebase/Database'
+ 
+  pod 'FirebaseUI/Auth'
+  
+  pod 'FirebaseUI/Google'
+  
+  pod 'FirebaseUI/Facebook'
+  
+  pod 'FirebaseUI/Phone'
+  
+  pod 'FirebaseUI/Email'
+  
+  pod 'FacebookCore'
+  pod 'FacebookLogin'
+  
+
+end

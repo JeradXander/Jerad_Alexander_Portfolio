@@ -1,0 +1,846 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D1F7CEFA5D3D5A4DDBF27CE /* Pods_AlexanderJerad_ImGoodTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E625BEA324E9E3A702D94DF /* Pods_AlexanderJerad_ImGoodTests.framework */; };
+		4813F3E195203F057ED3DBFC /* Pods_AlexanderJerad_ImGood_AlexanderJerad_ImGoodUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37367961860312EB2354B9C2 /* Pods_AlexanderJerad_ImGood_AlexanderJerad_ImGoodUITests.framework */; };
+		AC5CDD79C35E8020C96008F4 /* Pods_AlexanderJerad_ImGood.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D29436F79CB02F3CD2EDC9BD /* Pods_AlexanderJerad_ImGood.framework */; };
+		DF6096F1239CA48F001769B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6096F0239CA48F001769B6 /* AppDelegate.swift */; };
+		DF6096F3239CA48F001769B6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6096F2239CA48F001769B6 /* SceneDelegate.swift */; };
+		DF6096F5239CA48F001769B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF6096F4239CA48F001769B6 /* ViewController.swift */; };
+		DF6096F8239CA48F001769B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6096F6239CA48F001769B6 /* Main.storyboard */; };
+		DF6096FB239CA48F001769B6 /* AlexanderJerad_ImGood.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DF6096F9239CA48F001769B6 /* AlexanderJerad_ImGood.xcdatamodeld */; };
+		DF6096FD239CA490001769B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF6096FC239CA490001769B6 /* Assets.xcassets */; };
+		DF609700239CA490001769B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF6096FE239CA490001769B6 /* LaunchScreen.storyboard */; };
+		DF60970B239CA490001769B6 /* AlexanderJerad_ImGoodTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF60970A239CA490001769B6 /* AlexanderJerad_ImGoodTests.swift */; };
+		DF609716239CA490001769B6 /* AlexanderJerad_ImGoodUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF609715239CA490001769B6 /* AlexanderJerad_ImGoodUITests.swift */; };
+		DF609724239CA5C8001769B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = DF609723239CA5C8001769B6 /* GoogleService-Info.plist */; };
+		DF609726239DAE1F001769B6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF609725239DAE1F001769B6 /* SignInViewController.swift */; };
+		DF609728239DB65F001769B6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF609727239DB65F001769B6 /* HomeViewController.swift */; };
+		DF60972C23A57411001769B6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF60972B23A57411001769B6 /* User.swift */; };
+		DF60972E23A57986001769B6 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF60972D23A57986001769B6 /* MapViewController.swift */; };
+		DF60973223A58485001769B6 /* FriendClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF60973123A58485001769B6 /* FriendClass.swift */; };
+		DF60973423A5DA20001769B6 /* AllUserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF60973323A5DA20001769B6 /* AllUserTableViewController.swift */; };
+		DF60973823A6C00A001769B6 /* FriendsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF60973723A6C00A001769B6 /* FriendsViewController.swift */; };
+		DF60973A23A7263F001769B6 /* familyMemberTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF60973923A7263F001769B6 /* familyMemberTableViewCell.swift */; };
+		DF60973E23A88BFE001769B6 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF60973D23A88BFE001769B6 /* UserTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DF609707239CA490001769B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF6096E5239CA48F001769B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF6096EC239CA48F001769B6;
+			remoteInfo = AlexanderJerad_ImGood;
+		};
+		DF609712239CA490001769B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DF6096E5239CA48F001769B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DF6096EC239CA48F001769B6;
+			remoteInfo = AlexanderJerad_ImGood;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B861235C7C061FC9EA12EAE /* Pods-AlexanderJerad_ImGoodTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlexanderJerad_ImGoodTests.release.xcconfig"; path = "Target Support Files/Pods-AlexanderJerad_ImGoodTests/Pods-AlexanderJerad_ImGoodTests.release.xcconfig"; sourceTree = "<group>"; };
+		37367961860312EB2354B9C2 /* Pods_AlexanderJerad_ImGood_AlexanderJerad_ImGoodUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlexanderJerad_ImGood_AlexanderJerad_ImGoodUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E6423E0C33C676069A25DB2 /* Pods-AlexanderJerad_ImGood.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlexanderJerad_ImGood.debug.xcconfig"; path = "Target Support Files/Pods-AlexanderJerad_ImGood/Pods-AlexanderJerad_ImGood.debug.xcconfig"; sourceTree = "<group>"; };
+		5AB8B9BD37512E10477CAAF0 /* Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests.release.xcconfig"; path = "Target Support Files/Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests/Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5E625BEA324E9E3A702D94DF /* Pods_AlexanderJerad_ImGoodTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlexanderJerad_ImGoodTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29436F79CB02F3CD2EDC9BD /* Pods_AlexanderJerad_ImGood.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlexanderJerad_ImGood.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6096ED239CA48F001769B6 /* AlexanderJerad_ImGood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlexanderJerad_ImGood.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF6096F0239CA48F001769B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF6096F2239CA48F001769B6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF6096F4239CA48F001769B6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DF6096F7239CA48F001769B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF6096FA239CA48F001769B6 /* AlexanderJerad_ImGood.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AlexanderJerad_ImGood.xcdatamodel; sourceTree = "<group>"; };
+		DF6096FC239CA490001769B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF6096FF239CA490001769B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DF609701239CA490001769B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF609706239CA490001769B6 /* AlexanderJerad_ImGoodTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlexanderJerad_ImGoodTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF60970A239CA490001769B6 /* AlexanderJerad_ImGoodTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlexanderJerad_ImGoodTests.swift; sourceTree = "<group>"; };
+		DF60970C239CA490001769B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF609711239CA490001769B6 /* AlexanderJerad_ImGoodUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlexanderJerad_ImGoodUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF609715239CA490001769B6 /* AlexanderJerad_ImGoodUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlexanderJerad_ImGoodUITests.swift; sourceTree = "<group>"; };
+		DF609717239CA490001769B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF609723239CA5C8001769B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		DF609725239DAE1F001769B6 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		DF609727239DB65F001769B6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DF60972B23A57411001769B6 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		DF60972D23A57986001769B6 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		DF60973123A58485001769B6 /* FriendClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendClass.swift; sourceTree = "<group>"; };
+		DF60973323A5DA20001769B6 /* AllUserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllUserTableViewController.swift; sourceTree = "<group>"; };
+		DF60973723A6C00A001769B6 /* FriendsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsViewController.swift; sourceTree = "<group>"; };
+		DF60973923A7263F001769B6 /* familyMemberTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = familyMemberTableViewCell.swift; sourceTree = "<group>"; };
+		DF60973D23A88BFE001769B6 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		DF60973F23A895AE001769B6 /* AlexanderJerad_ImGood.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AlexanderJerad_ImGood.entitlements; sourceTree = "<group>"; };
+		EEC558A4060DFCDA363D05F5 /* Pods-AlexanderJerad_ImGood.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlexanderJerad_ImGood.release.xcconfig"; path = "Target Support Files/Pods-AlexanderJerad_ImGood/Pods-AlexanderJerad_ImGood.release.xcconfig"; sourceTree = "<group>"; };
+		EF183DC24F5AC30845E75BD3 /* Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests.debug.xcconfig"; path = "Target Support Files/Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests/Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F027879C98675A1DF6F2A8F6 /* Pods-AlexanderJerad_ImGoodTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlexanderJerad_ImGoodTests.debug.xcconfig"; path = "Target Support Files/Pods-AlexanderJerad_ImGoodTests/Pods-AlexanderJerad_ImGoodTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DF6096EA239CA48F001769B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC5CDD79C35E8020C96008F4 /* Pods_AlexanderJerad_ImGood.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF609703239CA490001769B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D1F7CEFA5D3D5A4DDBF27CE /* Pods_AlexanderJerad_ImGoodTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF60970E239CA490001769B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4813F3E195203F057ED3DBFC /* Pods_AlexanderJerad_ImGood_AlexanderJerad_ImGoodUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		73696FA53EDC04147104F900 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4E6423E0C33C676069A25DB2 /* Pods-AlexanderJerad_ImGood.debug.xcconfig */,
+				EEC558A4060DFCDA363D05F5 /* Pods-AlexanderJerad_ImGood.release.xcconfig */,
+				EF183DC24F5AC30845E75BD3 /* Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests.debug.xcconfig */,
+				5AB8B9BD37512E10477CAAF0 /* Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests.release.xcconfig */,
+				F027879C98675A1DF6F2A8F6 /* Pods-AlexanderJerad_ImGoodTests.debug.xcconfig */,
+				1B861235C7C061FC9EA12EAE /* Pods-AlexanderJerad_ImGoodTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C128A90B168F2D8BE0E3144F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D29436F79CB02F3CD2EDC9BD /* Pods_AlexanderJerad_ImGood.framework */,
+				37367961860312EB2354B9C2 /* Pods_AlexanderJerad_ImGood_AlexanderJerad_ImGoodUITests.framework */,
+				5E625BEA324E9E3A702D94DF /* Pods_AlexanderJerad_ImGoodTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DF6096E4239CA48F001769B6 = {
+			isa = PBXGroup;
+			children = (
+				DF6096EF239CA48F001769B6 /* AlexanderJerad_ImGood */,
+				DF609709239CA490001769B6 /* AlexanderJerad_ImGoodTests */,
+				DF609714239CA490001769B6 /* AlexanderJerad_ImGoodUITests */,
+				DF6096EE239CA48F001769B6 /* Products */,
+				73696FA53EDC04147104F900 /* Pods */,
+				C128A90B168F2D8BE0E3144F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DF6096EE239CA48F001769B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DF6096ED239CA48F001769B6 /* AlexanderJerad_ImGood.app */,
+				DF609706239CA490001769B6 /* AlexanderJerad_ImGoodTests.xctest */,
+				DF609711239CA490001769B6 /* AlexanderJerad_ImGoodUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DF6096EF239CA48F001769B6 /* AlexanderJerad_ImGood */ = {
+			isa = PBXGroup;
+			children = (
+				DF60973F23A895AE001769B6 /* AlexanderJerad_ImGood.entitlements */,
+				DF6096F0239CA48F001769B6 /* AppDelegate.swift */,
+				DF6096F2239CA48F001769B6 /* SceneDelegate.swift */,
+				DF6096F6239CA48F001769B6 /* Main.storyboard */,
+				DF6096F4239CA48F001769B6 /* ViewController.swift */,
+				DF609725239DAE1F001769B6 /* SignInViewController.swift */,
+				DF609727239DB65F001769B6 /* HomeViewController.swift */,
+				DF60972D23A57986001769B6 /* MapViewController.swift */,
+				DF60973723A6C00A001769B6 /* FriendsViewController.swift */,
+				DF60973323A5DA20001769B6 /* AllUserTableViewController.swift */,
+				DF60973923A7263F001769B6 /* familyMemberTableViewCell.swift */,
+				DF60973D23A88BFE001769B6 /* UserTableViewCell.swift */,
+				DF60972B23A57411001769B6 /* User.swift */,
+				DF60973123A58485001769B6 /* FriendClass.swift */,
+				DF6096FC239CA490001769B6 /* Assets.xcassets */,
+				DF6096FE239CA490001769B6 /* LaunchScreen.storyboard */,
+				DF609701239CA490001769B6 /* Info.plist */,
+				DF609723239CA5C8001769B6 /* GoogleService-Info.plist */,
+				DF6096F9239CA48F001769B6 /* AlexanderJerad_ImGood.xcdatamodeld */,
+			);
+			path = AlexanderJerad_ImGood;
+			sourceTree = "<group>";
+		};
+		DF609709239CA490001769B6 /* AlexanderJerad_ImGoodTests */ = {
+			isa = PBXGroup;
+			children = (
+				DF60970A239CA490001769B6 /* AlexanderJerad_ImGoodTests.swift */,
+				DF60970C239CA490001769B6 /* Info.plist */,
+			);
+			path = AlexanderJerad_ImGoodTests;
+			sourceTree = "<group>";
+		};
+		DF609714239CA490001769B6 /* AlexanderJerad_ImGoodUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DF609715239CA490001769B6 /* AlexanderJerad_ImGoodUITests.swift */,
+				DF609717239CA490001769B6 /* Info.plist */,
+			);
+			path = AlexanderJerad_ImGoodUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DF6096EC239CA48F001769B6 /* AlexanderJerad_ImGood */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF60971A239CA490001769B6 /* Build configuration list for PBXNativeTarget "AlexanderJerad_ImGood" */;
+			buildPhases = (
+				C15A1A82D7EF776E7D991A59 /* [CP] Check Pods Manifest.lock */,
+				DF6096E9239CA48F001769B6 /* Sources */,
+				DF6096EA239CA48F001769B6 /* Frameworks */,
+				DF6096EB239CA48F001769B6 /* Resources */,
+				78DE6FC3B837DF7910A2495F /* [CP] Embed Pods Frameworks */,
+				4AF224D7AF5F813EF50FA672 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlexanderJerad_ImGood;
+			productName = AlexanderJerad_ImGood;
+			productReference = DF6096ED239CA48F001769B6 /* AlexanderJerad_ImGood.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DF609705239CA490001769B6 /* AlexanderJerad_ImGoodTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF60971D239CA490001769B6 /* Build configuration list for PBXNativeTarget "AlexanderJerad_ImGoodTests" */;
+			buildPhases = (
+				9822AA35FDF69C85AF54D0CC /* [CP] Check Pods Manifest.lock */,
+				DF609702239CA490001769B6 /* Sources */,
+				DF609703239CA490001769B6 /* Frameworks */,
+				DF609704239CA490001769B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF609708239CA490001769B6 /* PBXTargetDependency */,
+			);
+			name = AlexanderJerad_ImGoodTests;
+			productName = AlexanderJerad_ImGoodTests;
+			productReference = DF609706239CA490001769B6 /* AlexanderJerad_ImGoodTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DF609710239CA490001769B6 /* AlexanderJerad_ImGoodUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DF609720239CA490001769B6 /* Build configuration list for PBXNativeTarget "AlexanderJerad_ImGoodUITests" */;
+			buildPhases = (
+				330B48715D9F604373B77159 /* [CP] Check Pods Manifest.lock */,
+				DF60970D239CA490001769B6 /* Sources */,
+				DF60970E239CA490001769B6 /* Frameworks */,
+				DF60970F239CA490001769B6 /* Resources */,
+				4E8DEF33A5145992CC204DA9 /* [CP] Embed Pods Frameworks */,
+				D20BB07A88B168789D208B9F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DF609713239CA490001769B6 /* PBXTargetDependency */,
+			);
+			name = AlexanderJerad_ImGoodUITests;
+			productName = AlexanderJerad_ImGoodUITests;
+			productReference = DF609711239CA490001769B6 /* AlexanderJerad_ImGoodUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DF6096E5239CA48F001769B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Jerad Alexander";
+				TargetAttributes = {
+					DF6096EC239CA48F001769B6 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					DF609705239CA490001769B6 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = DF6096EC239CA48F001769B6;
+					};
+					DF609710239CA490001769B6 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = DF6096EC239CA48F001769B6;
+					};
+				};
+			};
+			buildConfigurationList = DF6096E8239CA48F001769B6 /* Build configuration list for PBXProject "AlexanderJerad_ImGood" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DF6096E4239CA48F001769B6;
+			productRefGroup = DF6096EE239CA48F001769B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DF6096EC239CA48F001769B6 /* AlexanderJerad_ImGood */,
+				DF609705239CA490001769B6 /* AlexanderJerad_ImGoodTests */,
+				DF609710239CA490001769B6 /* AlexanderJerad_ImGoodUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DF6096EB239CA48F001769B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF609700239CA490001769B6 /* LaunchScreen.storyboard in Resources */,
+				DF609724239CA5C8001769B6 /* GoogleService-Info.plist in Resources */,
+				DF6096FD239CA490001769B6 /* Assets.xcassets in Resources */,
+				DF6096F8239CA48F001769B6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF609704239CA490001769B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF60970F239CA490001769B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		330B48715D9F604373B77159 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AF224D7AF5F813EF50FA672 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlexanderJerad_ImGood/Pods-AlexanderJerad_ImGood-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlexanderJerad_ImGood/Pods-AlexanderJerad_ImGood-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlexanderJerad_ImGood/Pods-AlexanderJerad_ImGood-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E8DEF33A5145992CC204DA9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests/Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests/Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests/Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78DE6FC3B837DF7910A2495F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlexanderJerad_ImGood/Pods-AlexanderJerad_ImGood-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlexanderJerad_ImGood/Pods-AlexanderJerad_ImGood-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlexanderJerad_ImGood/Pods-AlexanderJerad_ImGood-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9822AA35FDF69C85AF54D0CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlexanderJerad_ImGoodTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C15A1A82D7EF776E7D991A59 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlexanderJerad_ImGood-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D20BB07A88B168789D208B9F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests/Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests/Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests/Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DF6096E9239CA48F001769B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6096F5239CA48F001769B6 /* ViewController.swift in Sources */,
+				DF60973423A5DA20001769B6 /* AllUserTableViewController.swift in Sources */,
+				DF6096F1239CA48F001769B6 /* AppDelegate.swift in Sources */,
+				DF6096FB239CA48F001769B6 /* AlexanderJerad_ImGood.xcdatamodeld in Sources */,
+				DF60973E23A88BFE001769B6 /* UserTableViewCell.swift in Sources */,
+				DF60972E23A57986001769B6 /* MapViewController.swift in Sources */,
+				DF60972C23A57411001769B6 /* User.swift in Sources */,
+				DF609726239DAE1F001769B6 /* SignInViewController.swift in Sources */,
+				DF60973823A6C00A001769B6 /* FriendsViewController.swift in Sources */,
+				DF6096F3239CA48F001769B6 /* SceneDelegate.swift in Sources */,
+				DF60973A23A7263F001769B6 /* familyMemberTableViewCell.swift in Sources */,
+				DF60973223A58485001769B6 /* FriendClass.swift in Sources */,
+				DF609728239DB65F001769B6 /* HomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF609702239CA490001769B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF60970B239CA490001769B6 /* AlexanderJerad_ImGoodTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF60970D239CA490001769B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF609716239CA490001769B6 /* AlexanderJerad_ImGoodUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DF609708239CA490001769B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF6096EC239CA48F001769B6 /* AlexanderJerad_ImGood */;
+			targetProxy = DF609707239CA490001769B6 /* PBXContainerItemProxy */;
+		};
+		DF609713239CA490001769B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DF6096EC239CA48F001769B6 /* AlexanderJerad_ImGood */;
+			targetProxy = DF609712239CA490001769B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DF6096F6239CA48F001769B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF6096F7239CA48F001769B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DF6096FE239CA490001769B6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DF6096FF239CA490001769B6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DF609718239CA490001769B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DF609719239CA490001769B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DF60971B239CA490001769B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E6423E0C33C676069A25DB2 /* Pods-AlexanderJerad_ImGood.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlexanderJerad_ImGood/AlexanderJerad_ImGood.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				INFOPLIST_FILE = AlexanderJerad_ImGood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.AlexanderJerad-ImGood";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DF60971C239CA490001769B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEC558A4060DFCDA363D05F5 /* Pods-AlexanderJerad_ImGood.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AlexanderJerad_ImGood/AlexanderJerad_ImGood.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				INFOPLIST_FILE = AlexanderJerad_ImGood/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.AlexanderJerad-ImGood";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DF60971E239CA490001769B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F027879C98675A1DF6F2A8F6 /* Pods-AlexanderJerad_ImGoodTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				INFOPLIST_FILE = AlexanderJerad_ImGoodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.AlexanderJerad-ImGoodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlexanderJerad_ImGood.app/AlexanderJerad_ImGood";
+			};
+			name = Debug;
+		};
+		DF60971F239CA490001769B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B861235C7C061FC9EA12EAE /* Pods-AlexanderJerad_ImGoodTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				INFOPLIST_FILE = AlexanderJerad_ImGoodTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.AlexanderJerad-ImGoodTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlexanderJerad_ImGood.app/AlexanderJerad_ImGood";
+			};
+			name = Release;
+		};
+		DF609721239CA490001769B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF183DC24F5AC30845E75BD3 /* Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				INFOPLIST_FILE = AlexanderJerad_ImGoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.AlexanderJerad-ImGoodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlexanderJerad_ImGood;
+			};
+			name = Debug;
+		};
+		DF609722239CA490001769B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5AB8B9BD37512E10477CAAF0 /* Pods-AlexanderJerad_ImGood-AlexanderJerad_ImGoodUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 57Z6397G8G;
+				INFOPLIST_FILE = AlexanderJerad_ImGoodUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.alex.AlexanderJerad-ImGoodUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlexanderJerad_ImGood;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DF6096E8239CA48F001769B6 /* Build configuration list for PBXProject "AlexanderJerad_ImGood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF609718239CA490001769B6 /* Debug */,
+				DF609719239CA490001769B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF60971A239CA490001769B6 /* Build configuration list for PBXNativeTarget "AlexanderJerad_ImGood" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF60971B239CA490001769B6 /* Debug */,
+				DF60971C239CA490001769B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF60971D239CA490001769B6 /* Build configuration list for PBXNativeTarget "AlexanderJerad_ImGoodTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF60971E239CA490001769B6 /* Debug */,
+				DF60971F239CA490001769B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DF609720239CA490001769B6 /* Build configuration list for PBXNativeTarget "AlexanderJerad_ImGoodUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF609721239CA490001769B6 /* Debug */,
+				DF609722239CA490001769B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DF6096F9239CA48F001769B6 /* AlexanderJerad_ImGood.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DF6096FA239CA48F001769B6 /* AlexanderJerad_ImGood.xcdatamodel */,
+			);
+			currentVersion = DF6096FA239CA48F001769B6 /* AlexanderJerad_ImGood.xcdatamodel */;
+			path = AlexanderJerad_ImGood.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DF6096E5239CA48F001769B6 /* Project object */;
+}

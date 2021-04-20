@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Solace</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password_recover">Forgot Password?</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="home">Home</string>
+    <string name="profile">Profile</string>
+    <string name="no_account_register">No Account? REGISTER</string>
+    <string name="solace">Solace</string>
+    <string name="quote_of_the_day">Quote of the Day</string>
+    <string name="hello_world">Hello World</string>
+    <string name="self_help_book">Self-Help Book</string>
+    <string name="resources">Resources</string>
+    <string name="continuestring">Continue</string>
+    <string name="have_a_account_login">Have an account? LOGIN</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="your_password_must_be_atleast_6_characters_long">Your password must be at least 6 characters long</string>
+    <string name="username">Username</string>
+    <string name="please_enter_the_username">Please enter the username</string>
+    <string name="first_name">First Name</string>
+    <string name="available_to_help_others">Available to help others?</string>
+    <string name="autism_speaks">Autism Speaks</string>
+    <string name="depression_and_bipolar_support_alliance">Depression and Bipolar Support Alliance</string>
+    <string name="national_eating_disorders_association">National Eating Disorders Association</string>
+    <string name="substance_abuse_and_mental_health_services_administration">Substance Abuse and Mental Health Services Administration</string>
+    <string name="mayo_clinic_mental_illness">Mayo Clinic — Mental Illness</string>
+    <string name="national_domestic_violence_hotline">National Domestic Violence Hotline</string>
+    <string name="national_alliance_on_mental_illness_nami_veterans_and_active_duty">National Alliance on Mental Illness (NAMI) — Veterans and Active Duty</string>
+    <string name="lgbt_national_help_center">LGBT National Help Center</string>
+    <string name="anxiety_and_depression_association_of_america_adaa">Anxiety and Depression Association of America (ADAA)</string>
+    <string name="veterans_crisis_hotline">Veterans Crisis Hotline</string>
+    <string name="hardship">Hardship</string>
+    <string name="available_for_chat">Available for Chat</string>
+    <string name="past_conversations">Past Conversations</string>
+    <string name="suicide_hotline">Suicide Hotline</string>
+    <string name="we_understand">We understand that you\'re hurting and possibly, lost. The team behind Solace would like you to know that you\'re not in this alone. We know this button below seems intimidating but perhaps it could be a turning point in your life. Please just trust us...</string>
+    <string name="calling_in">Calling in...</string>
+    <string name="_5">5</string>
+    <string name="enter_first_name">Enter first name</string>
+    <string name="enter_last_name">enter last name</string>
+    <string name="name_must_be_3_20_characters_long">name must be 3-20 characters long</string>
+    <string name="name">Name</string>
+    <string name="online">online</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="listen">Listen</string>
+    <string name="select_random_listener">Find Person to Listen</string>
+    <string name="go_back">Go Back</string>
+    <string name="monday_1600">Monday 1600</string>
+    <string name="seen">Seen</string>
+    <string name="test_message">This is a text message for the layout placeholder</string>
+    <string name="seesbool">Seen</string>
+    <string name="delivered">Delivered</string>
+    <string name="colon">⋮</string>
+    <string name="block">Block/Report</string>
+    <string name="save">Save</string>
+    <string name="randomlistener">Matched with listener</string>
+    <string name="none_found">We are Sorry All of our listeners are matched. Please try again.</string>
+    <string name="registrering">Registering</string>
+    <string name="loading">Loading</string>
+    <string name="karma_text">Earn Karma by listening and talking to those in need</string>
+    <string name="self_help">Self-Help</string>
+    <string name="book_of_the_week">Book of the Week</string>
+    <string name="i_always_advice_people_don_t_wait_do_something_when_you_are_young_when_you_have_no_responsibilities_invest_time_in_yourself_to_have_great_experiences_that_are_going_to_enrich_you_then_you_can_t_possibly_lose">I always advice people - Don\'t wait ! Do something when you are young, when you have no responsibilities. Invest time in yourself to have great Experiences that are going to enrich you, then you can\'t possibly lose.</string>
+    <string name="edit_photo">Edit Photo</string>
+    <string name="no_conversations_to_display">No Conversations to Display</string>
+    <string name="back_to_dashboard">Back to Dashboard</string>
+    <string name="emptyplaceholder" />
+    <string name="karma">Karma</string>
+    <string name="close">Close</string>
+
+    <string-array name="Hardship">
+        <item>Relationships</item>
+        <item>Family</item>
+        <item>Death</item>
+        <item>Job</item>
+        <item>Natural Disaster</item>
+        <item>Other</item>
+    </string-array>
+</resources>

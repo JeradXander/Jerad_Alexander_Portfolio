@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".activities.StartingActivity">
+
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_above="@+id/page_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/solace_logo" />
+
+    <TextView
+        android:id="@+id/page_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/email_label"
+        android:layout_alignStart="@+id/email_field"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="@font/activereg"
+        android:text="Sign Up"
+        android:textColor="@android:color/white"
+        android:textSize="32sp" />
+
+    <TextView
+        android:id="@+id/email_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/email_field"
+        android:layout_alignStart="@+id/email_field"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="0dp"
+        android:fontFamily="@font/activereg"
+        android:text="@string/email"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"/>
+
+
+    <EditText
+        android:id="@+id/email_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/password_descr"
+        android:layout_marginBottom="12dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/button_back"
+        android:hint="@string/email"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp"
+        android:shadowColor="@android:color/white"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/darkGrey"
+        android:textSize="20sp"
+        android:maxLength="30"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:nextFocusDown="@id/pass_feild"/>
+
+
+    <TextView
+        android:id="@+id/password_descr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/password_label"
+        android:layout_alignStart="@+id/email_field"
+        android:layout_alignEnd="@+id/pass_feild"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/your_password_must_be_atleast_6_characters_long"
+        android:textColor="@android:color/white"
+        android:textSize="14sp"
+       />
+
+    <TextView
+        android:id="@+id/password_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/pass_feild"
+        android:layout_alignStart="@+id/email_field"
+        android:fontFamily="@font/activereg"
+        android:text="@string/password"
+        android:textSize="24sp"
+        android:textColor="@android:color/white"/>
+
+    <EditText
+        android:id="@+id/pass_feild"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:background="@drawable/button_back"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp"
+        android:shadowColor="@android:color/white"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/darkGrey"
+        android:textSize="20sp"
+        android:maxLength="30"
+        android:singleLine="true"
+        android:imeOptions="actionNext"
+        android:nextFocusDown="@id/confirm_pass_feild"/>
+
+    <TextView
+        android:id="@+id/confirm_password_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pass_feild"
+        android:layout_alignStart="@+id/email_field"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/activereg"
+        android:text="@string/confirm_password"
+        android:textColor="@android:color/white"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/confirm_pass_feild"
+        android:layout_width="377dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/pass_feild"
+        android:layout_alignEnd="@+id/pass_feild"
+        android:layout_below="@+id/confirm_password_label"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:background="@drawable/button_back"
+        android:hint="@string/password"
+        android:inputType="textNoSuggestions"
+        android:paddingStart="16dp"
+        android:paddingTop="8dp"
+        android:paddingEnd="16dp"
+        android:paddingBottom="8dp"
+        android:shadowColor="@android:color/white"
+        android:textColor="@android:color/black"
+        android:textColorHint="@color/darkGrey"
+        android:textSize="20sp"
+        android:maxLength="30"
+        android:singleLine="true"
+        android:imeOptions="actionDone"
+        android:nextFocusDown="@id/continue_button"/>
+
+    <Button
+        android:id="@+id/continue_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/confirm_pass_feild"
+        android:layout_alignStart="@+id/pass_feild"
+        android:layout_alignEnd="@+id/pass_feild"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/button_login_reg"
+        android:text="@string/continuestring"
+        android:textColor="@color/color_clickable" />
+
+    <TextView android:id="@+id/login_link"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/have_a_account_login"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:textColor="@color/color_clickable"
+        android:textSize="16sp"
+
+        />
+
+</RelativeLayout>

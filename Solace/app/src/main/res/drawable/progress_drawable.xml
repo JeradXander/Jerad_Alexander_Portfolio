@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item>
+        <shape>
+            <gradient
+                android:endColor="@color/darkGreen"
+                android:startColor="@color/color_clickable"
+                android:useLevel="true"
+                android:angle="0"
+                android:centerColor="@color/color_clickable"
+                android:centerY="0.60
+"
+                />
+            <corners android:radius="25dp"/>
+        </shape>
+    </item>
+</layer-list>

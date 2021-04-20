@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".activities.DashboardActivity"
+    android:background="@drawable/dialog_back">
+
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/splash_anim"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:lottie_loop="true"
+        app:lottie_autoPlay="true"
+        app:lottie_rawRes="@raw/splash_anim"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView android:id="@+id/labelIV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_clickable"
+        android:text="Searching"
+        android:layout_below="@id/splash_anim"
+        android:textAlignment="center"
+        android:layout_marginBottom="30dp"
+        />
+
+    <TextView android:id="@+id/countdownIV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_clickable"
+        android:text=""
+        android:layout_below="@id/labelIV"
+        android:textAlignment="center"
+        android:layout_marginBottom="20dp"/>
+
+</RelativeLayout>

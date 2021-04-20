@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/profile_IV"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/avatar_back"
+            android:src="@drawable/profile_place"
+            />
+
+        <TextView android:id="@+id/messageTV"
+            android:layout_weight=".7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:text="@string/test_message"
+            android:background="@drawable/bg_receiver"
+            android:padding="24dp"/>
+
+        <TextView android:id="@+id/message_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/test_time"
+            android:textSize="12sp"
+            android:textAlignment="textEnd"
+            android:textColor="@color/colorPrimaryDark"/>
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/is_seen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seen"
+        android:textSize="12sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textAlignment="textEnd"
+        />
+
+
+
+
+</LinearLayout>

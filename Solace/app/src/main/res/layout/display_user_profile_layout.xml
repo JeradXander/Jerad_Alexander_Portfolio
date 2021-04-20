@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="400dp"
+    android:layout_marginTop="150dp"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/dialog_back">
+
+
+    <ImageView android:id="@+id/displayAvatar"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="16dp"
+        android:layout_gravity="center"
+        android:background="@drawable/avatar_back"
+        android:padding="8dp"
+        />
+
+    <TextView
+        android:id="@+id/displayUsernameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/username"
+        android:layout_gravity="center"
+        android:fontFamily="@font/activereg"
+        android:textSize="25sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/karma"
+            android:layout_gravity="center"
+            android:fontFamily="@font/activereg"
+            android:textSize="25sp"/>
+
+
+        <TextView
+            android:id="@+id/displayKarmaTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="38dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="center"
+            android:text="@string/karma"
+            android:layout_gravity="center"
+            android:fontFamily="@font/activereg"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/hardship"
+            android:layout_gravity="center"
+            android:fontFamily="@font/activereg"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/displayHardshipTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="center"
+            android:text="@string/hardship"
+            android:layout_gravity="center"
+            android:fontFamily="@font/activereg"
+            android:textSize="25sp"/>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/displayCloseBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="24dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/button_login_reg"
+        android:text="@string/close"
+        android:textColor="@color/color_clickable" />
+
+</LinearLayout>

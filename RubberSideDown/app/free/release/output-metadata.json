@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.alexanderapps.rubbersidedown",
+  "variantName": "freeRelease",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 2,
+      "versionName": "RubbervSide down v1.1free",
+      "enabled": true,
+      "outputFile": "app-free-release.apk"
+    }
+  ]
+}

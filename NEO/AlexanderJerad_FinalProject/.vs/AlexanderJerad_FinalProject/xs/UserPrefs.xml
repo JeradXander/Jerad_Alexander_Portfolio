@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{A501CD87-84EA-4ED9-ABC1-7450315B660E}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Form1.cs">
+    <Files>
+      <File FileName="Form1.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AlexanderJerad_FinalProject" expanded="True">
+            <Node name="AlexanderJerad_FinalProject" expanded="True">
+              <Node name="Form1.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.AlexanderJerad__FinalProject PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

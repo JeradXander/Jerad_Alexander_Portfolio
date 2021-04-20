@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "433061034836",
+    "firebase_url": "https://solace-fb1cc.firebaseio.com",
+    "project_id": "solace-fb1cc",
+    "storage_bucket": "solace-fb1cc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:433061034836:android:ccb00c659376a87ae7a6c1",
+        "android_client_info": {
+          "package_name": "com.jerad_zac.solace"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "433061034836-u8i81ptbkuo5kv601um9m33i6jtn9o4q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAjKweE0uXM8HA6R-xj1eNM81I0S7ANTX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "433061034836-u8i81ptbkuo5kv601um9m33i6jtn9o4q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

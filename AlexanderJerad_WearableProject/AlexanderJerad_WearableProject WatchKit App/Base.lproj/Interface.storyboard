@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="16096" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="16012"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller alwaysBounce="YES" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="AlexanderJerad_WearableProject_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label alignment="center" text="Your Health" textAlignment="center" minimumScaleFactor="0.80000000000000004" id="u5A-cx-A7j">
+                            <color key="textColor" red="1" green="0.12941176469999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
+                        </label>
+                        <button width="0.69999999999999996" alignment="center" title="Height" id="Yp9-83-Gry">
+                            <color key="backgroundColor" red="0.77474088649226136" green="0.0" blue="1" alpha="0.84705882352941175" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <action selector="heightPressed" destination="AgC-eL-Hgc" id="Vne-8R-N3g"/>
+                            </connections>
+                        </button>
+                        <button width="0.69999999999999996" alignment="center" title="Weight" id="CyK-oX-RYx">
+                            <color key="backgroundColor" red="0.65624350310000001" green="0.1329846382" blue="0.81573110820000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <action selector="wieghtPressed" destination="AgC-eL-Hgc" id="oJc-qz-yH4"/>
+                            </connections>
+                        </button>
+                        <button width="0.69999999999999996" alignment="center" title="Blood Pressure" id="dJX-1w-ouq">
+                            <color key="backgroundColor" red="1" green="0.12941176469999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="bpPressed" destination="AgC-eL-Hgc" id="la2-w9-ELo"/>
+                            </connections>
+                        </button>
+                        <button width="0.69999999999999996" alignment="center" title="Heart Rate" id="C7g-a4-KRG">
+                            <color key="backgroundColor" red="1" green="0.12941176469999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="restingPressed" destination="AgC-eL-Hgc" id="Btr-QT-he3"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="BPButton" destination="dJX-1w-ouq" id="9cC-JM-1xF"/>
+                        <outlet property="WeightButton" destination="CyK-oX-RYx" id="lFz-pQ-Q5a"/>
+                        <outlet property="heightButton" destination="Yp9-83-Gry" id="jGk-zz-0ef"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Static Notification Interface Controller-->
+        <scene sceneID="AEw-b0-oYE">
+            <objects>
+                <notificationController id="YCC-NB-fut">
+                    <items>
+                        <label alignment="left" text="Alert Label" numberOfLines="0" id="IdU-wH-bcW"/>
+                    </items>
+                    <notificationCategory key="notificationCategory" identifier="myCategory" id="JfB-70-Muf"/>
+                    <connections>
+                        <outlet property="notificationAlertLabel" destination="IdU-wH-bcW" id="JKC-fr-R95"/>
+                        <segue destination="4sK-HA-Art" kind="relationship" relationship="dynamicNotificationInterface" id="kXh-Jw-8B1"/>
+                        <segue destination="eXb-UN-Cd0" kind="relationship" relationship="dynamicInteractiveNotificationInterface" id="mpB-YA-K8N"/>
+                    </connections>
+                </notificationController>
+            </objects>
+            <point key="canvasLocation" x="220" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="ZPc-GJ-vnh">
+            <objects>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="AlexanderJerad_WearableProject_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="468" y="643"/>
+        </scene>
+        <!--Notification Controller-->
+        <scene sceneID="Niz-AI-uX2">
+            <objects>
+                <controller id="eXb-UN-Cd0" customClass="NotificationController" customModule="AlexanderJerad_WearableProject_WatchKit_App" customModuleProvider="target"/>
+            </objects>
+            <point key="canvasLocation" x="220" y="1020"/>
+        </scene>
+        <!--Height-->
+        <scene sceneID="Bep-Hk-cRP">
+            <objects>
+                <controller identifier="heightController" title="Height" id="aAn-CR-UwR" customClass="HeightInterfaceController" customModule="AlexanderJerad_WearableProject_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Height in Inches:" id="hvR-9S-iPd">
+                            <color key="textColor" red="0.65624350310000001" green="0.1329846382" blue="0.81573110820000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </label>
+                        <label width="136" height="20" alignment="left" text="0" id="tZ8-8g-bUL"/>
+                        <picker height="61" alignment="left" id="jQG-DD-tKw">
+                            <connections>
+                                <action selector="heightChanged:" destination="aAn-CR-UwR" id="xo6-9H-hkh"/>
+                            </connections>
+                        </picker>
+                        <button width="1" alignment="left" title="Save" id="Ju2-d4-mH2">
+                            <color key="backgroundColor" red="0.65624350310000001" green="0.1329846382" blue="0.81573110820000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <action selector="savePressed" destination="aAn-CR-UwR" id="oYq-wd-tY9"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="heightPicker" destination="jQG-DD-tKw" id="9DN-7Q-7M1"/>
+                        <outlet property="selecedLabel" destination="tZ8-8g-bUL" id="Lxz-gZ-zZ0"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="468" y="315"/>
+        </scene>
+        <!--Weight-->
+        <scene sceneID="61F-XV-0xk">
+            <objects>
+                <controller identifier="weightController" title="Weight" id="lQ5-TR-J39" customClass="WeightInterfaceController" customModule="AlexanderJerad_WearableProject_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Weight in Pounds:" id="GPI-f3-VwU">
+                            <color key="textColor" red="0.65624350310000001" green="0.1329846382" blue="0.81573110820000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </label>
+                        <label width="136" height="20" alignment="left" text="0" id="SR4-oS-XZd"/>
+                        <picker height="59" alignment="left" id="3g6-rP-SP2">
+                            <connections>
+                                <action selector="weightChanged:" destination="lQ5-TR-J39" id="jwy-Ju-xyg"/>
+                            </connections>
+                        </picker>
+                        <button width="1" alignment="left" title="Save" id="CHJ-lb-2gP">
+                            <color key="backgroundColor" red="0.65624350310000001" green="0.1329846382" blue="0.81573110820000005" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <connections>
+                                <action selector="savePressed" destination="lQ5-TR-J39" id="bKg-H1-3fS"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="selecedLabel" destination="SR4-oS-XZd" id="nfU-9B-2RF"/>
+                        <outlet property="weightPicker" destination="3g6-rP-SP2" id="Rcu-QZ-Z3b"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="705" y="315"/>
+        </scene>
+        <!--BP-->
+        <scene sceneID="YuP-g2-ndp">
+            <objects>
+                <controller identifier="BPController" title="BP" alwaysBounce="YES" id="8Ea-RN-r9L" customClass="BPInterfaceController" customModule="AlexanderJerad_WearableProject_WatchKit_Extension">
+                    <items>
+                        <label alignment="left" text="Last BP" id="QFD-jT-1Ho">
+                            <color key="textColor" red="1" green="0.12941176469999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </label>
+                        <label width="136" alignment="left" text="0" id="4OU-8E-5gd"/>
+                        <group width="1" alignment="left" id="nQk-W5-owO">
+                            <items>
+                                <label alignment="left" text="Systolic/ Diastolic" minimumScaleFactor="0.69999999999999996" id="y5s-pi-bsx">
+                                    <color key="textColor" red="1" green="0.12941176469999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </label>
+                            </items>
+                        </group>
+                        <group width="1" alignment="left" id="g1w-Wk-fRo">
+                            <items>
+                                <picker width="65" height="55" alignment="center" id="0kj-BE-Xsu">
+                                    <connections>
+                                        <action selector="systolicDidChange:" destination="8Ea-RN-r9L" id="MMp-jh-rGA"/>
+                                    </connections>
+                                </picker>
+                                <picker width="65" height="55" alignment="center" id="hA3-oc-Ghs">
+                                    <connections>
+                                        <action selector="diastolicDidChange:" destination="8Ea-RN-r9L" id="WcD-gF-ihh"/>
+                                    </connections>
+                                </picker>
+                            </items>
+                        </group>
+                        <button width="1" alignment="left" title="Save" id="5Eb-9j-gVj">
+                            <color key="backgroundColor" red="1" green="0.12941176469999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <connections>
+                                <action selector="save" destination="8Ea-RN-r9L" id="Vi4-zd-RvH"/>
+                            </connections>
+                        </button>
+                    </items>
+                    <connections>
+                        <outlet property="bpLabel" destination="4OU-8E-5gd" id="yBe-nG-hGw"/>
+                        <outlet property="diastolicPicker" destination="hA3-oc-Ghs" id="JMa-hc-IGy"/>
+                        <outlet property="systolicPicker" destination="0kj-BE-Xsu" id="7ts-av-lBU"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="948" y="323"/>
+        </scene>
+        <!--Resting HR-->
+        <scene sceneID="6oJ-EI-C1L">
+            <objects>
+                <controller identifier="RestingController" title="Resting HR" id="h8q-0c-WrB" customClass="RestingController" customModule="AlexanderJerad_WearableProject_WatchKit_Extension">
+                    <items>
+                        <label alignment="center" text=" Heart Rate" minimumScaleFactor="0.80000000000000004" id="PeZ-NX-urs">
+                            <color key="textColor" red="1" green="0.12941176469999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleTitle1"/>
+                        </label>
+                        <label alignment="center" verticalAlignment="center" text="90" textAlignment="center" id="F1a-Wa-YRh">
+                            <color key="textColor" red="1" green="0.12941176469999999" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" style="UICTFontTextStyleTitle0"/>
+                        </label>
+                        <label alignment="center" verticalAlignment="center" text="Save BPM Manually" numberOfLines="2" id="fdW-Rx-QTF"/>
+                        <textField alignment="center" verticalAlignment="center" text="enter BMP" id="GVh-ZJ-xli">
+                            <connections>
+                                <action selector="manualPressed:" destination="h8q-0c-WrB" id="p4L-jS-2Rp"/>
+                            </connections>
+                        </textField>
+                    </items>
+                    <connections>
+                        <outlet property="hrLabel" destination="F1a-Wa-YRh" id="w5k-yl-95z"/>
+                        <outlet property="manEdit" destination="GVh-ZJ-xli" id="8tT-JA-6Ed"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="1178" y="327"/>
+        </scene>
+    </scenes>
+</document>

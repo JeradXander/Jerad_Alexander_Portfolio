@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+
+    tools:context=".activities.DashBoardActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/users_recycleview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/signout"/>
+
+
+    <Button
+        android:id="@+id/signout"
+        android:textColor="@android:color/white"
+        android:textSize="12sp"
+        android:background="@drawable/button_back"
+        android:shadowColor="@android:color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="@string/sign_out"
+        android:layout_margin="8dp"
+        />
+
+    <androidx.appcompat.widget.SearchView
+        android:id="@+id/user_search"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        />
+
+</RelativeLayout>

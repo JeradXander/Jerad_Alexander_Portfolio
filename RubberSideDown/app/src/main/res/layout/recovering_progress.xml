@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:layout_centerHorizontal="true"
+    android:weightSum="1.0"
+    >
+
+    <ProgressBar android:id="@+id/progLoader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="0.30"/>
+
+    <TextView android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/please_wait_while_recovering"
+        android:layout_weight="0.70"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="20dp"
+        android:layout_gravity="center"
+        android:lines="2"/>
+
+</LinearLayout>

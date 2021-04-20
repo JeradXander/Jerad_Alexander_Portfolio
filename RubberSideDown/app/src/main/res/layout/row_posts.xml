@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="@color/colorPrimary"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout android:id="@+id/profile_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center_vertical">
+
+        <ImageView android:id="@+id/post_avatar"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/profile_place"
+            android:background="@drawable/avatar_back"
+            android:layout_margin="16dp"
+            />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:layout_marginTop="16dp">
+
+            <TextView android:id="@+id/uNameTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                />
+
+            <TextView android:id="@+id/pTimeTV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_33_min"
+                android:textColor="@android:color/white"
+                />
+
+        </LinearLayout>
+
+        <ImageButton android:id="@+id/post_more"
+            android:layout_marginTop="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/more"
+            android:padding="16dp"/>
+
+
+    </LinearLayout>
+    
+    <TextView android:id="@+id/pTitleTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/posttitle"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        />
+
+        <TextView android:id="@+id/pBodyTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="@string/posttitle"
+            android:textSize="14sp"
+            android:textColor="@android:color/white"
+            />
+        
+        <ImageView android:id="@+id/post_pImageIV"
+            android:layout_width="match_parent"
+            android:layout_height="380dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView android:id="@+id/pLikesTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_1_2k_likes"
+                android:textSize="18sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_weight="1"
+                />
+            <TextView android:id="@+id/pCommentTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_12k_comments"
+                android:textSize="18sp"
+                android:layout_weight="1"
+                android:textAlignment="textEnd"
+                android:textColor="@color/colorPrimaryDark"
+                />
+
+
+        </LinearLayout>
+        
+       <View
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="#F5F0F0"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center">
+
+            <Button android:id="@+id/pLikeBT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_margin="4dp"
+                android:text="@string/like"
+                android:background="@null"
+                android:drawableStart="@drawable/thumbs"/>
+            <Button android:id="@+id/pCommentBT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:text="@string/comment"
+                android:background="@null"
+                android:drawableStart="@drawable/comment"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>
